@@ -2,19 +2,19 @@
 \contentsline {subsection}{\numberline {1.1}实验目的}{3}{subsection.1.1}%
 \contentsline {subsection}{\numberline {1.2}仪器用具}{3}{subsection.1.2}%
 \contentsline {subsection}{\numberline {1.3}原理概述}{3}{subsection.1.3}%
-\contentsline {subsection}{\numberline {1.4}实验前思考题}{4}{subsection.1.4}%
-\contentsline {section}{\numberline {2}CA3 \hskip 1em\relax 原子的发射和吸收光谱观测分析实验 \hskip 1em\relax \heiti 实验记录}{5}{section.2}%
-\contentsline {subsection}{\numberline {2.1}实验内容和步骤}{5}{subsection.2.1}%
-\contentsline {subsubsection}{\numberline {2.1.1}实验一 测量光栅常数}{5}{subsubsection.2.1.1}%
-\contentsline {subsubsection}{\numberline {2.1.2}实验二 测定未知光波波长及角色散率$D$}{6}{subsubsection.2.1.2}%
-\contentsline {subsection}{\numberline {2.2}实验过程中遇到的问题记录}{7}{subsection.2.2}%
-\contentsline {section}{\numberline {3}CA3 \hskip 1em\relax 原子的发射和吸收光谱观测分析实验 \hskip 1em\relax \heiti 分析与讨论}{8}{section.3}%
-\contentsline {subsection}{\numberline {3.1}实验数据分析}{8}{subsection.3.1}%
-\contentsline {subsubsection}{\numberline {3.1.1}实验一 测量光栅常数}{8}{subsubsection.3.1.1}%
-\contentsline {subsubsection}{\numberline {3.1.2}实验二 测定未知光波波长及角色散率D}{9}{subsubsection.3.1.2}%
-\contentsline {subsection}{\numberline {3.2}实验后思考题}{10}{subsection.3.2}%
-\contentsline {section}{参考文献}{12}{section*.11}%
-\contentsline {section}{Appendices}{13}{section*.12}%
-\contentsline {subsection}{\numberline {.1}代码记录}{13}{subsection.Alph0.1}%
-\contentsline {subsection}{\numberline {.2}常用命令展示}{14}{subsection.Alph0.2}%
+\contentsline {subsection}{\numberline {1.4}实验前思考题}{3}{subsection.1.4}%
+\contentsline {section}{\numberline {2}CA3 \hskip 1em\relax 原子的发射和吸收光谱观测分析实验 \hskip 1em\relax \heiti 实验记录}{4}{section.2}%
+\contentsline {subsection}{\numberline {2.1}实验内容和步骤}{4}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}实验一 测量光栅常数}{4}{subsubsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.2}实验二 测定未知光波波长及角色散率$D$}{5}{subsubsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.2}实验过程中遇到的问题记录}{6}{subsection.2.2}%
+\contentsline {section}{\numberline {3}CA3 \hskip 1em\relax 原子的发射和吸收光谱观测分析实验 \hskip 1em\relax \heiti 分析与讨论}{7}{section.3}%
+\contentsline {subsection}{\numberline {3.1}实验数据分析}{7}{subsection.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}实验一 测量光栅常数}{7}{subsubsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.2}实验二 测定未知光波波长及角色散率D}{8}{subsubsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.2}实验后思考题}{9}{subsection.3.2}%
+\contentsline {section}{参考文献}{11}{section*.10}%
+\contentsline {section}{Appendices}{12}{section*.11}%
+\contentsline {subsection}{\numberline {.1}代码记录}{12}{subsection.Alph0.1}%
+\contentsline {subsection}{\numberline {.2}常用命令展示}{13}{subsection.Alph0.2}%
 \contentsfinish 
