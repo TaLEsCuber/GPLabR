@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.9.8)  5 MAR 2024 22:31
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.9.8)  5 MAR 2024 22:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1300,16 +1300,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \hskip 10.95pt
-(hyperref)                replaced by space on input line 75.
+(hyperref)                replaced by space on input line 88.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \hskip 10.95pt
-(hyperref)                replaced by space on input line 75.
+(hyperref)                replaced by space on input line 88.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\heiti' on input line 75.
+(hyperref)                removing `\heiti' on input line 88.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1336,16 +1336,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \hskip 10.95pt
-(hyperref)                replaced by space on input line 249.
+(hyperref)                replaced by space on input line 262.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \hskip 10.95pt
-(hyperref)                replaced by space on input line 249.
+(hyperref)                replaced by space on input line 262.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\heiti' on input line 249.
+(hyperref)                removing `\heiti' on input line 262.
 
 Missing character: There is no ′ (U+2032) in font [lmroman10-regular]:mapping=t
 ex-text;!
@@ -1369,11 +1369,11 @@ Missing character: There is no ′ (U+2032) in font [lmroman10-regular]:mapping=
 ex-text;!
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 290.
+(hyperref)                removing `math shift' on input line 303.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 290.
+(hyperref)                removing `math shift' on input line 303.
 
 Missing character: There is no ′ (U+2032) in font [lmroman10-regular]:mapping=t
 ex-text;!
@@ -1466,16 +1466,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \hskip 10.95pt
-(hyperref)                replaced by space on input line 363.
+(hyperref)                replaced by space on input line 376.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \hskip 10.95pt
-(hyperref)                replaced by space on input line 363.
+(hyperref)                replaced by space on input line 376.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\heiti' on input line 363.
+(hyperref)                removing `\heiti' on input line 376.
 
 Missing character: There is no ′ (U+2032) in font [lmroman10-regular]:mapping=t
 ex-text;!
@@ -1556,7 +1556,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [10]
 
 Package tcolorbox Warning: Using nobreak failed. Try to enlarge `lines before b
-reak' or set page breaks manually on input line 524.
+reak' or set page breaks manually on input line 537.
 
 File: D:/大学各种资料/2023大二/2023大二上/基础物理实验I/5.光栅常数及光波波长的测量/SYSU-SPA-Labreport-Templa
 te-main/images/table.jpg Graphic file (type bmp)
@@ -1587,7 +1587,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 ]
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 563.
+nput line 576.
 
 Package fontspec Info: Could not resolve font "FangSong/BI" (it probably
 (fontspec)             doesn't exist).
@@ -1612,7 +1612,7 @@ Package fontspec Info: Font family 'FangSong(0)' created for font 'FangSong'
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
 LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <10> not available
-(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 564.
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 577.
 File: ./images//example1.png Graphic file (type bmp)
 <./images//example1.png>
 
@@ -1629,7 +1629,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 ]
 
 LaTeX Font Warning: Font shape `TU/KaiTi(0)/b/n' undefined
-(Font)              using `TU/KaiTi(0)/m/n' instead on input line 591.
+(Font)              using `TU/KaiTi(0)/m/n' instead on input line 604.
 
 
 Package fontspec Info: Could not resolve font "Microsoft YaHei Bold/I" (it
@@ -1656,6 +1656,10 @@ Package fontspec Info: Font family 'MicrosoftYaHei(0)' created for font
 (fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"Microsoft
 (fontspec)             YaHei/BI/OT:script=hani;language=dflt;"
 (fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+
+
+Package tcolorbox Warning: Discard zero height first box part due to break prob
+lems (possible loss of zero height content) on input line 673.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1696,13 +1700,13 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `CA3.out' has not changed.
-(rerunfilecheck)             Checksum: F1AB580B0C02C6ED8131268F2A90D2A5;2470.
+(rerunfilecheck)             Checksum: 70FA625275B0EF3723954CBBD18D7E78;2704.
  ) 
 Here is how much of TeX's memory you used:
- 37711 strings out of 476683
- 819084 string characters out of 5807576
+ 37702 strings out of 476683
+ 818512 string characters out of 5807576
  1946012 words of memory out of 5000000
- 57311 multiletter control sequences out of 15000+600000
+ 57302 multiletter control sequences out of 15000+600000
  519417 words of font info for 113 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  105i,13n,107p,443b,1409s stack positions out of 10000i,1000n,20000p,200000b,200000s
