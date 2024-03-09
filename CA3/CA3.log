@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.9.8)  9 MAR 2024 14:31
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.9.8)  9 MAR 2024 14:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1366,86 +1366,20 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\heiti' on input line 263.
 
-Missing character: There is no ′ (U+2032) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ′ (U+2032) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ′ (U+2032) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ′ (U+2032) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ′ (U+2032) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ′ (U+2032) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ′ (U+2032) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ′ (U+2032) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ′ (U+2032) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ′ (U+2032) in font [lmroman10-regular]:mapping=t
-ex-text;!
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 304.
+(hyperref)                \hskip 10.95pt
+(hyperref)                replaced by space on input line 266.
 
+File: ./images//Na2.png Graphic file (type bmp)
+<./images//Na2.png>
+File: ./images//Na2-589.png Graphic file (type bmp)
+<./images//Na2-589.png>
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 304.
+(hyperref)                \hskip 10.95pt
+(hyperref)                replaced by space on input line 296.
 
-Missing character: There is no ′ (U+2032) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ′ (U+2032) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ′ (U+2032) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ′ (U+2032) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ′ (U+2032) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ′ (U+2032) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ′ (U+2032) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ′ (U+2032) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ′ (U+2032) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ′ (U+2032) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ′ (U+2032) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ′ (U+2032) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ′ (U+2032) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ′ (U+2032) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ′ (U+2032) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ′ (U+2032) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ′ (U+2032) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ′ (U+2032) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ′ (U+2032) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ′ (U+2032) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ′ (U+2032) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ′ (U+2032) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ′ (U+2032) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ′ (U+2032) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ′ (U+2032) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ′ (U+2032) in font [lmroman10-regular]:mapping=t
-ex-text;!
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1457,11 +1391,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [7
 
 ]
-File: D:/大学各种资料/2023大二/2023大二上/基础物理实验I/5.光栅常数及光波波长的测量/SYSU-SPA-Labreport-Templa
-te-main/images/OriginalData5.jpg Graphic file (type bmp)
-<D:/大学各种资料/2023大二/2023大二上/基础物理实验I/5.光栅常数及光波波长的测量/SYSU-SPA-Labreport-Template-ma
-in/images/OriginalData5.jpg>
+File: ./images//Hg1.png Graphic file (type bmp)
+<./images//Hg1.png>
+File: ./images//Hg2-546nm.png Graphic file (type bmp)
+<./images//Hg2-546nm.png>
 
+Missing character: There is no λ (U+03BB) in font [lmroman10-regular]:mapping=t
+ex-text;!
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1471,8 +1407,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [8]
-Missing character: There is no λ (U+03BB) in font [lmroman10-regular]:mapping=t
-ex-text;!
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1485,16 +1419,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \hskip 10.95pt
-(hyperref)                replaced by space on input line 377.
+(hyperref)                replaced by space on input line 359.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \hskip 10.95pt
-(hyperref)                replaced by space on input line 377.
+(hyperref)                replaced by space on input line 359.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\heiti' on input line 377.
+(hyperref)                removing `\heiti' on input line 359.
 
 Missing character: There is no ′ (U+2032) in font [lmroman10-regular]:mapping=t
 ex-text;!
@@ -1575,7 +1509,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [12]
 
 Package tcolorbox Warning: Using nobreak failed. Try to enlarge `lines before b
-reak' or set page breaks manually on input line 538.
+reak' or set page breaks manually on input line 520.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1589,14 +1523,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `CA3.out' has not changed.
-(rerunfilecheck)             Checksum: 023C1A21BEC2039A9ECE9D153C2848B4;2322.
+(rerunfilecheck)             Checksum: 91DDFA1EDD6036359F7804D2B5C4DC10;2277.
  ) 
 Here is how much of TeX's memory you used:
- 37338 strings out of 476683
- 809875 string characters out of 5807576
+ 37385 strings out of 476683
+ 810656 string characters out of 5807576
  1880012 words of memory out of 5000000
- 56981 multiletter control sequences out of 15000+600000
+ 57029 multiletter control sequences out of 15000+600000
  519209 words of font info for 87 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  105i,12n,107p,443b,974s stack positions out of 10000i,1000n,20000p,200000b,200000s
