@@ -13,8 +13,4 @@
 \contentsline {subsubsection}{\numberline {3.1.1}实验一 测量光栅常数}{10}{subsubsection.3.1.1}%
 \contentsline {subsubsection}{\numberline {3.1.2}实验二 测定未知光波波长及角色散率D}{11}{subsubsection.3.1.2}%
 \contentsline {subsection}{\numberline {3.2}实验后思考题}{12}{subsection.3.2}%
-\contentsline {section}{参考文献}{14}{section*.13}%
-\contentsline {section}{Appendices}{15}{section*.14}%
-\contentsline {subsection}{\numberline {.1}代码记录}{15}{subsection.Alph0.1}%
-\contentsline {subsection}{\numberline {.2}常用命令展示}{16}{subsection.Alph0.2}%
 \contentsfinish 
