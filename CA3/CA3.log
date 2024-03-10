@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.9.8)  9 MAR 2024 14:57
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.9.8)  10 MAR 2024 18:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1060,7 +1060,38 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 \enit@inbox=\box94
 \enit@count@id=\count379
 \enitdp@description=\count380
-) (./CA3.aux)
+) (./CA3.aux
+
+LaTeX Warning: Label `fig:Na2' multiply defined.
+
+
+LaTeX Warning: Label `fig:Na2@cref' multiply defined.
+
+
+LaTeX Warning: Label `fig:Na2-589' multiply defined.
+
+
+LaTeX Warning: Label `fig:Na2-589@cref' multiply defined.
+
+
+LaTeX Warning: Label `fig:Hg1' multiply defined.
+
+
+LaTeX Warning: Label `fig:Hg1@cref' multiply defined.
+
+
+LaTeX Warning: Label `fig:Hg2-546' multiply defined.
+
+
+LaTeX Warning: Label `fig:Hg2-546@cref' multiply defined.
+
+
+LaTeX Warning: Label `fig:phone' multiply defined.
+
+
+LaTeX Warning: Label `fig:phone@cref' multiply defined.
+
+)
 \openout1 = `CA3.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
@@ -1376,11 +1407,6 @@ File: ./images//Na2.png Graphic file (type bmp)
 File: ./images//Na2-589.png Graphic file (type bmp)
 <./images//Na2-589.png>
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                \hskip 10.95pt
-(hyperref)                replaced by space on input line 296.
-
-
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
 (fancyhdr)                \setlength{\headheight}{13.59999pt}.
@@ -1395,9 +1421,14 @@ File: ./images//Hg1.png Graphic file (type bmp)
 <./images//Hg1.png>
 File: ./images//Hg2-546nm.png Graphic file (type bmp)
 <./images//Hg2-546nm.png>
+File: ./images//phone.png Graphic file (type bmp)
+<./images//phone.png>
 
-Missing character: There is no λ (U+03BB) in font [lmroman10-regular]:mapping=t
-ex-text;!
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                \hskip 10.95pt
+(hyperref)                replaced by space on input line 336.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1417,18 +1448,27 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [9]
 
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[10]
+
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \hskip 10.95pt
-(hyperref)                replaced by space on input line 359.
+(hyperref)                replaced by space on input line 383.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \hskip 10.95pt
-(hyperref)                replaced by space on input line 359.
+(hyperref)                replaced by space on input line 383.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\heiti' on input line 359.
+(hyperref)                removing `\heiti' on input line 383.
 
 Missing character: There is no ′ (U+2032) in font [lmroman10-regular]:mapping=t
 ex-text;!
@@ -1450,7 +1490,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[10
+[11
 
 ]
 Missing character: There is no ′ (U+2032) in font [lmroman10-regular]:mapping=t
@@ -1497,19 +1537,19 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[11]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
 [12]
 
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[13]
+
 Package tcolorbox Warning: Using nobreak failed. Try to enlarge `lines before b
-reak' or set page breaks manually on input line 520.
+reak' or set page breaks manually on input line 544.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1519,23 +1559,29 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[13] (./CA3.aux)
+[14] (./CA3.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
-Package rerunfilecheck Info: File `CA3.out' has not changed.
-(rerunfilecheck)             Checksum: 91DDFA1EDD6036359F7804D2B5C4DC10;2277.
+
+Package rerunfilecheck Warning: File `CA3.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `CA3.out':
+(rerunfilecheck)             Before: FF0CB1CF42196D74A6EA0972573CC0B6;2449
+(rerunfilecheck)             After:  54B13BCB0EBD511291760F35505B9A0A;2325.
  ) 
 Here is how much of TeX's memory you used:
- 37385 strings out of 476683
- 810656 string characters out of 5807576
+ 37405 strings out of 476683
+ 811062 string characters out of 5807576
  1880012 words of memory out of 5000000
- 57029 multiletter control sequences out of 15000+600000
+ 57048 multiletter control sequences out of 15000+600000
  519209 words of font info for 87 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  105i,12n,107p,443b,974s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on CA3.pdf (13 pages).
+Output written on CA3.pdf (14 pages).
