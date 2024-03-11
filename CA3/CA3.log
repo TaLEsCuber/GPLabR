@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.9.8)  10 MAR 2024 18:15
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.9.8)  10 MAR 2024 18:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1060,38 +1060,7 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 \enit@inbox=\box94
 \enit@count@id=\count379
 \enitdp@description=\count380
-) (./CA3.aux
-
-LaTeX Warning: Label `fig:Na2' multiply defined.
-
-
-LaTeX Warning: Label `fig:Na2@cref' multiply defined.
-
-
-LaTeX Warning: Label `fig:Na2-589' multiply defined.
-
-
-LaTeX Warning: Label `fig:Na2-589@cref' multiply defined.
-
-
-LaTeX Warning: Label `fig:Hg1' multiply defined.
-
-
-LaTeX Warning: Label `fig:Hg1@cref' multiply defined.
-
-
-LaTeX Warning: Label `fig:Hg2-546' multiply defined.
-
-
-LaTeX Warning: Label `fig:Hg2-546@cref' multiply defined.
-
-
-LaTeX Warning: Label `fig:phone' multiply defined.
-
-
-LaTeX Warning: Label `fig:phone@cref' multiply defined.
-
-)
+) (./CA3.aux)
 \openout1 = `CA3.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
@@ -1459,16 +1428,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \hskip 10.95pt
-(hyperref)                replaced by space on input line 383.
+(hyperref)                replaced by space on input line 403.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \hskip 10.95pt
-(hyperref)                replaced by space on input line 383.
+(hyperref)                replaced by space on input line 403.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\heiti' on input line 383.
+(hyperref)                removing `\heiti' on input line 403.
 
 Missing character: There is no ′ (U+2032) in font [lmroman10-regular]:mapping=t
 ex-text;!
@@ -1549,7 +1518,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [13]
 
 Package tcolorbox Warning: Using nobreak failed. Try to enlarge `lines before b
-reak' or set page breaks manually on input line 544.
+reak' or set page breaks manually on input line 564.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1563,23 +1532,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were multiply-defined labels.
-
-
-Package rerunfilecheck Warning: File `CA3.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `CA3.out':
-(rerunfilecheck)             Before: FF0CB1CF42196D74A6EA0972573CC0B6;2449
-(rerunfilecheck)             After:  54B13BCB0EBD511291760F35505B9A0A;2325.
+Package rerunfilecheck Info: File `CA3.out' has not changed.
+(rerunfilecheck)             Checksum: 54B13BCB0EBD511291760F35505B9A0A;2325.
  ) 
 Here is how much of TeX's memory you used:
- 37405 strings out of 476683
- 811062 string characters out of 5807576
+ 37397 strings out of 476683
+ 810890 string characters out of 5807576
  1880012 words of memory out of 5000000
- 57048 multiletter control sequences out of 15000+600000
+ 57040 multiletter control sequences out of 15000+600000
  519209 words of font info for 87 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  105i,12n,107p,443b,974s stack positions out of 10000i,1000n,20000p,200000b,200000s
