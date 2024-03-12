@@ -275,7 +275,7 @@
 					
 				\end{enumerate}
 				
-				得到的钠灯光谱如下图所示：
+				得到的钠灯光谱如图\ref{fig:Na2}所示：
 				
 				\begin{figure}[htbp]
 					\centering
@@ -283,6 +283,8 @@
 					\caption{钠灯光谱}
 					\label{fig:Na2}
 				\end{figure}
+				
+				将所得图片放大，可看到著名的纳双黄线，测得波长值分别为$\lambda_1=588.72nm$和$\lambda_2=589.34nm$
 				
 				\begin{figure}[htbp]
 					\centering
@@ -296,7 +298,7 @@
 				重复上述步骤，测量暗噪声和环境噪声。将暗噪声与环境噪声都扣除后，将支架对准汞灯，测量汞灯光谱。
 				
 				
-				得到的汞灯光谱如下图所示：
+				得到的汞灯光谱如图\ref{fig:Hg1}所示：
 				
 				\begin{figure}[htbp]
 					\centering
@@ -316,7 +318,7 @@
 			
 				重复上述步骤，测量暗噪声和环境噪声。将暗噪声与环境噪声都扣除后，将支架对准手机屏幕，测量手机屏幕光谱。其中手机显示全白画面。
 				
-				得到的手机屏幕光谱如下图所示：
+				得到的手机屏幕光谱如图\ref{fig:phone}所示：
 				
 				\begin{figure}[htbp]
 					\centering
@@ -403,24 +405,87 @@
 
 	\subsubsection{实验一 \quad 原子发射光谱的观测}
 		
-		查阅资料可知，钠原子能级的量子亏损数如图\ref{fig:graph10}所示
+		\begin{enumerate}
+			\item \textbf{拍摄钠灯光谱}
+			
+				查阅资料可知，钠原子能级的量子亏损数如图\ref{fig:graph10}所示
+				
+				钠原子光谱的主线系只有$\widetilde{v}=3p \rightarrow 3s$ 的二条谱线（钠双黄线）是在可见区，其余在紫外区。
+				则根据公式：
+				\[
+				\widetilde{v}=R(\frac{1}{n_2^{*2}}-\frac{1}{n_1^{*2}})=\frac{R}{{(n'-{\mu'}_{l'})}^2}-\frac{R}{{(n-\mu_l)}^2}
+				\]
+				
+				初态为$3p$能级，$n=3$，$l=1$，$\mu_l=0.883$；末态为$3s$能级，$n'=3$，$l'=0$，$\mu'_{l'}=1.373$
+				
+				则代入公式，计算得到
+				\[ \frac{1}{\lambda}=\widetilde{v}=\frac{R}{{(n'-{\mu'}_{l'})}^2}-\frac{R}{{(n-\mu_l)}^2}=1.097373157\times10^{7}\times[\frac{1}{(3-1.373)^2}-\frac{1}{(3-0.883)^2}]m^{-1}\approx\frac{1}{589.3nm}
+				\]
+				
+				\begin{figure}[htbp]
+					\centering
+					\includegraphics[width=1\textwidth]{graph10.png}
+					\caption{钠原子能级的量子数亏损$\mu_l$}
+					\label{fig:graph10}
+				\end{figure}
+			
+			\item \textbf{拍摄汞灯光谱}
+				
+				查询资料可知汞灯的可见光波段的特征谱线，如表\ref{tab:table1}所示：
+				
+				\begin{table}[htbp]
+					\centering
+					\begin{tabular}{|c|c|c|}
+						\hline
+						波长$\lambda$/nm & 颜色 \\
+						\hline
+						579.1 & 黄色 \\
+						\hline
+						577.0 & 黄色 \\
+						\hline
+						546.1 & 绿色 \\
+						\hline
+						435.8 & 蓝色 \\
+						\hline
+						404.7 & 紫色 \\
+						\hline
+							
+					\end{tabular}
+					\caption{不同波长对应的谱线颜色}
+					\label{tab:table1}
+				\end{table}
+				
+				对比实验数据与标准数据，计算相对误差，结果如表\ref{tab:table2}：
+				
+				\begin{table}[htbp]
+					\centering
+					\begin{tabular}{|c|c|c|}
+						\hline
+						实验值/nm & 标准值/nm & 相对误差    \\
+						\hline
+						578.85 & 579.1  & 0.04\%  \\
+						
+						576.65 & 577.0  & 0.06\%  \\
+						
+						545.90 & 546.1  & 0.04\%  \\
+						
+						435.59 & 435.8  & 0.05\%  \\
+						
+						404.41 & 404.7  & 0.07\%  \\
+						\hline
+					\end{tabular}
+					\caption{理论值与实验值对比}
+					\label{tab:table2}
+				\end{table}
+				
+				相对误差均在$0.05\%$左右，说明实验精度还是较高的。
+				
+			\item \textbf{拍摄手机屏幕光谱}
+				
+				
+		\end{enumerate}
 		
-		钠原子光谱的主线系只有$\widetilde{v}=3p \rightarrow 3s$ 的二条谱线（钠双黄线）是在可见区，其余在紫外区。
-		则根据公式：
-		\[
-		\widetilde{v}=R(\frac{1}{n_2^{*2}}-\frac{1}{n_1^{*2}})=\frac{R}{{(n'-{\mu'}_{l'})}^2}-\frac{R}{{(n-\mu_l)}^2}
-		\]
-		
-		初态为$3p$能级，$n=3$，$l=1$，$\mu_l=0.883$；末态为$3s$能级，$n'=3$，$l'=0$，$\mu'_{l'}=1.373$
-		
-		则代入公式，计算得到
-		
-		\begin{figure}[htbp]
-			\centering
-			\includegraphics[width=1\textwidth]{graph10.png}
-			\caption{钠原子能级的量子数亏损$\mu_l$}
-			\label{fig:graph10}
-		\end{figure}
+
 		
 	\subsubsection{实验二 原子吸收光谱的观测}
 			
