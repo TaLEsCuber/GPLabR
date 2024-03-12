@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.9.8)  12 MAR 2024 22:23
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.9.8)  13 MAR 2024 03:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1060,85 +1060,177 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 \enit@inbox=\box94
 \enit@count@id=\count379
 \enitdp@description=\count380
+)
+(d:/texlive/2023/texmf-dist/tex/latex/tabularray/tabularray.sty
+Package: tabularray 2023-03-01 v2023A Typeset tabulars and arrays with LaTeX3
+\l__tblr_a_int=\count381
+\l__tblr_c_int=\count382
+\l__tblr_r_int=\count383
+\l__tblr_d_dim=\dimen347
+\l__tblr_h_dim=\dimen348
+\l__tblr_o_dim=\dimen349
+\l__tblr_p_dim=\dimen350
+\l__tblr_q_dim=\dimen351
+\l__tblr_r_dim=\dimen352
+\l__tblr_s_dim=\dimen353
+\l__tblr_t_dim=\dimen354
+\l__tblr_v_dim=\dimen355
+\l__tblr_w_dim=\dimen356
+\l__tblr_a_box=\box95
+\l__tblr_b_box=\box96
+\l__tblr_c_box=\box97
+\l__tblr_d_box=\box98
+\g__tblr_table_count_int=\count384
+\c@rownum=\count385
+\c@colnum=\count386
+\c@rowcount=\count387
+\c@colcount=\count388
+\abovesep=\dimen357
+\belowsep=\dimen358
+\leftsep=\dimen359
+\rightsep=\dimen360
+\g_tblr_level_int=\count389
+\g__tblr_data_row_key_count_int=\count390
+\g__tblr_data_column_key_count_int=\count391
+\g__tblr_data_cell_key_count_int=\count392
+\g__tblr_array_int=\count393
+\l__tblr_key_count_int=\count394
+\l__tblr_key_quotient_int=\count395
+\l__tblr_key_quotient_two_int=\count396
+\l__tblr_key_remainder_int=\count397
+\g__tblr_data_str_value_count_int=\count398
+\rulewidth=\dimen361
+\l__tblr_strut_dp_dim=\dimen362
+\l__tblr_strut_ht_dim=\dimen363
+\g__tblr_cell_wd_dim=\dimen364
+\g__tblr_cell_ht_dim=\dimen365
+\g__tblr_cell_head_dim=\dimen366
+\g__tblr_cell_foot_dim=\dimen367
+\l__column_target_dim=\dimen368
+\l__tblr_caption_box=\box99
+\l__tblr_caption_left_box=\box100
+\l__tblr_row_head_box=\box101
+\l__tblr_row_foot_box=\box102
+\l__tblr_row_head_foot_dim=\dimen369
+\tablewidth=\dimen370
+\l__tblr_table_firsthead_box=\box103
+\l__tblr_table_middlehead_box=\box104
+\l__tblr_table_lasthead_box=\box105
+\l__tblr_table_firstfoot_box=\box106
+\l__tblr_table_middlefoot_box=\box107
+\l__tblr_table_lastfoot_box=\box108
+\l__tblr_remain_height_dim=\dimen371
+\l__tblr_long_from_int=\count399
+\l__tblr_long_to_int=\count400
+\l__tblr_curr_i_int=\count401
+\l__tblr_prev_i_int=\count402
+\l__tblr_table_page_int=\count403
+\l__tblr_table_head_box=\box109
+\l__tblr_table_foot_box=\box110
+\l__tblr_table_head_foot_dim=\dimen372
+\l__tblr_table_head_body_foot_dim=\dimen373
+\l__tblr_table_box=\box111
+\l__tblr_table_hlines_box=\box112
+\l__tblr_hline_box=\box113
+\l__tblr_row_box=\box114
+\l__tblr_col_o_wd_dim=\dimen374
+\l__tblr_col_b_wd_dim=\dimen375
+\l__tblr_hline_leftskip_dim=\dimen376
+\l__tblr_hline_rightskip_dim=\dimen377
+\l__tblr_row_ht_dim=\dimen378
+\l__tblr_row_dp_dim=\dimen379
+\l__tblr_row_abovesep_dim=\dimen380
+\l__tblr_row_belowsep_dim=\dimen381
+\l__tblr_row_vlines_box=\box115
+\l__tblr_vline_box=\box116
+\l__tblr_cell_box=\box117
+\l__row_upper_dim=\dimen382
+\l__row_lower_dim=\dimen383
+\l__row_vpace_dim=\dimen384
+\l__tblr_vline_aboveskip_dim=\dimen385
+\l__tblr_vline_belowskip_dim=\dimen386
+\l__tblr_cell_wd_dim=\dimen387
+\l__tblr_cell_ht_dim=\dimen388
+\l__tblr_diag_box=\box118
 ) (./CA3.aux)
 \openout1 = `CA3.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
 
 Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 (fontspec)             this).
 
 \symlegacymaths=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 22.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 22.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 22.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 22.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 22.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 22.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 22.
-LaTeX Font Info:    Redeclaring math accent \check on input line 22.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 22.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 22.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 22.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 22.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 22.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 22.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 22.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 22.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 22.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 22.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 22.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 22.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 22.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 22.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 22.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 22.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 23.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 23.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 23.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 23.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 23.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 23.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 23.
+LaTeX Font Info:    Redeclaring math accent \check on input line 23.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 23.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 23.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 23.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 23.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 23.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 23.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 23.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 23.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 23.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 23.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 23.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 23.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 23.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 23.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 23.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 23.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 22.
+(Font)              `operators' in the math version `normal' on input line 23.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 22.
+(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 23.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 22.
+(Font)              `operators' in the math version `bold' on input line 23.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 22.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 23.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 22.
+(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 23.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 22.
+(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 23.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 22.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 23.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 22.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 23.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 22.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 23.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 22.
+(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 23.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 22.
+(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 23.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 22.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 23.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 22.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 23.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1174,7 +1266,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 22.
+Package hyperref Info: Link coloring ON on input line 23.
 (./CA3.out) (./CA3.out)
 \@outlinefile=\write4
 \openout4 = `CA3.out'.
@@ -1184,9 +1276,14 @@ Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count381
- (d:/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd) (d:/texlive/2023/texmf
--dist/tex/latex/amsfonts/umsb.fd)
+\c@lstlisting=\count404
+
+(d:/texlive/2023/texmf-dist/tex/latex/ninecolors/ninecolors.sty
+Package: ninecolors 2022-02-13 vv2022D Select colors with proper color contrast
+
+)
+(d:/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(d:/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd)
 
 Package fontspec Info: Could not resolve font "KaiTi/BI" (it probably doesn't
 (fontspec)             exist).
@@ -1293,16 +1390,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \hskip 10.95pt
-(hyperref)                replaced by space on input line 85.
+(hyperref)                replaced by space on input line 86.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \hskip 10.95pt
-(hyperref)                replaced by space on input line 85.
+(hyperref)                replaced by space on input line 86.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\heiti' on input line 85.
+(hyperref)                removing `\heiti' on input line 86.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1355,26 +1452,48 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \hskip 10.95pt
-(hyperref)                replaced by space on input line 260.
+(hyperref)                replaced by space on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \hskip 10.95pt
-(hyperref)                replaced by space on input line 260.
+(hyperref)                replaced by space on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\heiti' on input line 260.
+(hyperref)                removing `\heiti' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \hskip 10.95pt
-(hyperref)                replaced by space on input line 263.
+(hyperref)                replaced by space on input line 264.
+
+
+Overfull \hbox (2.71805pt too wide) in paragraph at lines 279--281
+[]\TU/SimSun(0)/m/n/10.95 得 到 的 钠 灯 光 谱 如 图[][]\TU/lmr/m/n/10.95 4[][]\TU/SimSu
+n(0)/m/n/10.95 所 示：|  将 所 得 图 片 放 大，|  可 看 到 著 名 的 纳 双 黄 线，|  测 得 波 长 值 分 别 为 $
+\OML/cmm/m/it/10.95 ^^U[] \OT1/cmr/m/n/10.95 = 588\OML/cmm/m/it/10.95 :\OT1/cmr
+/m/n/10.95 72\OML/cmm/m/it/10.95 nm$
+ []
 
 File: ./images//Na2.png Graphic file (type bmp)
 <./images//Na2.png>
 File: ./images//Na2-589.png Graphic file (type bmp)
 <./images//Na2-589.png>
+
+Overfull \hbox (14.58539pt too wide) in paragraph at lines 286--290
+ [][][][] 
+ []
+
+File: ./images//Hg1.png Graphic file (type bmp)
+<./images//Hg1.png>
+File: ./images//Hg2-546nm.png Graphic file (type bmp)
+<./images//Hg2-546nm.png>
+
+Overfull \hbox (14.58539pt too wide) in paragraph at lines 307--311
+ [][][][] 
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1386,17 +1505,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [7
 
 ]
-File: ./images//Hg1.png Graphic file (type bmp)
-<./images//Hg1.png>
-File: ./images//Hg2-546nm.png Graphic file (type bmp)
-<./images//Hg2-546nm.png>
 File: ./images//phone.png Graphic file (type bmp)
 <./images//phone.png>
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \hskip 10.95pt
-(hyperref)                replaced by space on input line 335.
+(hyperref)                replaced by space on input line 334.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1407,6 +1522,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [8]
+File: ./images//KMnO4-all.png Graphic file (type bmp)
+<./images//KMnO4-all.png>
+File: ./images//KMnO4-AllPeak.png Graphic file (type bmp)
+<./images//KMnO4-AllPeak.png>
+
+Overfull \hbox (14.58539pt too wide) in paragraph at lines 356--360
+ [][][][] 
+ []
+
+File: ./images//plate-all.png Graphic file (type bmp)
+<./images//plate-all.png>
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1428,24 +1554,28 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \hskip 10.95pt
-(hyperref)                replaced by space on input line 402.
+(hyperref)                replaced by space on input line 432.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \hskip 10.95pt
-(hyperref)                replaced by space on input line 402.
+(hyperref)                replaced by space on input line 432.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\heiti' on input line 402.
+(hyperref)                removing `\heiti' on input line 432.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \hskip 10.95pt
-(hyperref)                replaced by space on input line 406.
+(hyperref)                replaced by space on input line 436.
 
+File: ./images//NaSpectrum1.png Graphic file (type bmp)
+<./images//NaSpectrum1.png>
 File: ./images//graph10.png Graphic file (type bmp)
 <./images//graph10.png>
+File: ./images//HgSpectrum1.png Graphic file (type bmp)
+<./images//HgSpectrum1.png>
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1465,7 +1595,76 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[12] (./CA3.aux)
+[12]
+File: ./images//phone-1.png Graphic file (type bmp)
+<./images//phone-1.png>
+File: ./images//KMnO4-1.png Graphic file (type bmp)
+<./images//KMnO4-1.png>
+File: ./images//KMnO4-2.png Graphic file (type bmp)
+<./images//KMnO4-2.png>
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
+File: ./images//Absorbance0.png Graphic file (type bmp)
+<./images//Absorbance0.png>
+File: ./images//plate-1.png Graphic file (type bmp)
+<./images//plate-1.png>
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[13
+
+]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[14]
+File: ./images//Transmission1.png Graphic file (type bmp)
+<./images//Transmission1.png>
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[15]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[16]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[17] (./CA3.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -1473,12 +1672,12 @@ Package rerunfilecheck Info: File `CA3.out' has not changed.
 (rerunfilecheck)             Checksum: 848D108A9D7CB909D2494FE8236682E9;2320.
  ) 
 Here is how much of TeX's memory you used:
- 37380 strings out of 476683
- 809194 string characters out of 5807576
+ 39825 strings out of 476683
+ 871344 string characters out of 5807576
  1880012 words of memory out of 5000000
- 57022 multiletter control sequences out of 15000+600000
- 519209 words of font info for 87 fonts, out of 8000000 for 9000
+ 59448 multiletter control sequences out of 15000+600000
+ 520563 words of font info for 90 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  105i,12n,107p,443b,968s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on CA3.pdf (12 pages).
+Output written on CA3.pdf (17 pages).

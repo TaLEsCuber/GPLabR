@@ -11,6 +11,7 @@
 \input{Settings} % 导入模板的相关设置
 \usepackage{lipsum}
 \usepackage{enumitem}
+\usepackage{tabularray}
 %\setlist[enumerate]{label=\textup{(\arabic*)}}
 
 
@@ -275,44 +276,42 @@
 					
 				\end{enumerate}
 				
-				得到的钠灯光谱如图\ref{fig:Na2}所示：
-				
-				\begin{figure}[htbp]
-					\centering
-					\includegraphics[width=1\textwidth]{Na2.png}
-					\caption{钠灯光谱}
-					\label{fig:Na2}
-				\end{figure}
-				
+				得到的钠灯光谱如图\ref{fig:Na-1}所示：
 				将所得图片放大，可看到著名的纳双黄线，测得波长值分别为$\lambda_1=588.72nm$和$\lambda_2=589.34nm$
 				
 				\begin{figure}[htbp]
 					\centering
-					\includegraphics[width=1\textwidth]{Na2-589.png}
-					\caption{钠灯光谱双黄线}
-					\label{fig:Na2-589}
+					\subfloat[]{
+						\includegraphics[width=0.5\textwidth]{Na2.png}
+					}
+					\subfloat[]{
+						\includegraphics[width=0.5\textwidth]{Na2-589.png}
+					}
+					\caption{钠灯谱线}
+					\label{fig:Na-1}			
 				\end{figure}
+				
+				
 				
 			\item \textbf{拍摄汞灯光谱}
 			
 				重复上述步骤，测量暗噪声和环境噪声。将暗噪声与环境噪声都扣除后，将支架对准汞灯，测量汞灯光谱。
 				
 				
-				得到的汞灯光谱如图\ref{fig:Hg1}所示：
+				得到的汞灯光谱如图\ref{fig:Hg-1}所示：
 				
 				\begin{figure}[htbp]
 					\centering
-					\includegraphics[width=1\textwidth]{Hg1.png}
-					\caption{汞灯光谱}
-					\label{fig:Hg1}
+					\subfloat[]{
+						\includegraphics[width=0.5\textwidth]{Hg1.png}
+					}
+					\subfloat[]{
+						\includegraphics[width=0.5\textwidth]{Hg2-546nm.png}
+					}
+					\caption{汞灯谱线}
+					\label{fig:Hg-1}			
 				\end{figure}
 				
-				\begin{figure}[htbp]
-					\centering
-					\includegraphics[width=1\textwidth]{Hg2-546nm.png}
-					\caption{汞灯光谱峰值}
-					\label{fig:Hg2-546}
-				\end{figure}
 				
 			\item \textbf{拍摄手机屏幕光谱}
 			
@@ -338,20 +337,49 @@
 			\item \textbf{验证比尔定律}
 				
 				\begin{enumerate}
-					\item 准备待测溶液。实验中所用溶液为清水和$KMnO_4$溶液，浓度为0.1g/L，0.08g/L，0.06g/L，0.04g/L，0.02g/L，0.01g/L.
+					\item 准备待测溶液。实验中所用溶液为清水和$KMnO_4$溶液，浓度为$0.1g/L$，$0.08g/L$，$0.06g/L$，$0.04g/L$，$0.02g/L$，$0.01g/L$.
 					
 					\item 按照实验一的做法，设置合适的积分时间和积分次数，消除暗噪声和环境噪声。
 					
 					\item 选择吸光度模式，测量各种浓度$KMnO_4$溶液和清水的吸收曲线。
 					
-					\item 
+					\item 测量完所有浓度溶液的吸收曲线后，将所有数据放置在同一张图上进行对比。
 					
-					\item 
 				\end{enumerate}
 				
+				得到实验结果如图\ref{fig:Absorbance}所示
+				
+				\begin{figure}[htbp]
+					\centering
+					\subfloat[]{
+						\includegraphics[width=0.5\textwidth]{KMnO4-all.png}
+					}
+					\subfloat[]{
+						\includegraphics[width=0.5\textwidth]{KMnO4-AllPeak.png}
+					}
+					\caption{不同溶液浓度吸收率曲线}
+					\label{fig:Absorbance}			
+				\end{figure}
 				
 			\item \textbf{验证朗伯定律}
 			
+				\begin{enumerate}
+					\item 按照实验一的做法，设置合适的积分时间和积分次数，消除暗噪声和环境噪声。
+					
+					\item 选择透射率模式，测量放置不同数量玻璃片的透射曲线。
+					
+					\item 测量完所有数量玻璃片的透射曲线后，将所有数据放置在同一张图上进行对比。
+					
+				\end{enumerate}
+				
+				实验结果如图\ref{fig:plate-all}所示
+				
+				\begin{figure}[htbp]
+					\centering
+					\includegraphics[width=1\textwidth]{plate-all.png}
+					\caption{不同数量玻璃片的透射率曲线}
+					\label{fig:plate-all}
+				\end{figure}
 			
 			
 		\end{enumerate}
@@ -372,11 +400,11 @@
 \subsection{实验过程中遇到的问题记录}
 
 \begin{enumerate}
-	\item 	
+	\item 一定要按照规范要求和步骤消除暗噪声和环境噪声，否则得到的实验数据会有很严重的毛刺，给数据分析带来麻烦。
 	
-	\item 	
+	\item 在测量原子发射光谱时，要注意测量值不能饱和，否则无法看出不同谱线之间的能量差异，甚至可能会将杂波也当作谱线。
 	
-	\item 	
+	\item 在测量$KMnO_4$溶液的吸收曲线时，要注意标签不能阻挡光路。
 	
 	\item 	
 	
@@ -394,7 +422,9 @@
 	\hline
 	姓名： & 戴鹏辉 & 学号：& 22344016\\
 	\hline
-    日期：& 2024/xx/xx & 评分： &\\
+    日期：& 2024/03/10 &  &\\
+	\hline
+	评分： &      & 教师签名：&   \\
 	\hline
 	\end{tabularx}
 \end{table}
@@ -422,40 +452,28 @@
 				\[ \frac{1}{\lambda}=\widetilde{v}=\frac{R}{{(n'-{\mu'}_{l'})}^2}-\frac{R}{{(n-\mu_l)}^2}=1.097373157\times10^{7}\times[\frac{1}{(3-1.373)^2}-\frac{1}{(3-0.883)^2}]m^{-1}\approx\frac{1}{589.3nm}
 				\]
 				
+				再利用自旋-轨道相互作用等相关理论，即可计算出3p的能级分裂，得到纳双黄线的具体波长数值。因能级分裂造成的双线结构波长差$\Delta\lambda=0.6nm$,实验与理论结果基本吻合。
+				
 				\begin{figure}[htbp]
 					\centering
-					\includegraphics[width=1\textwidth]{graph10.png}
+					\includegraphics[width=0.7\textwidth]{NaSpectrum1.png}
+					\caption{实验测得的钠灯光谱}
+					\label{fig:NaSpectrum}
+				\end{figure}
+				
+				\begin{figure}[htbp]
+					\centering
+					\includegraphics[width=0.5\textwidth]{graph10.png}
 					\caption{钠原子能级的量子数亏损$\mu_l$}
 					\label{fig:graph10}
 				\end{figure}
+				
+				
 			
 			\item \textbf{拍摄汞灯光谱}
 				
-				查询资料可知汞灯的可见光波段的特征谱线，如表\ref{tab:table1}所示：
-				
-				\begin{table}[htbp]
-					\centering
-					\begin{tabular}{|c|c|c|}
-						\hline
-						波长$\lambda$/nm & 颜色 \\
-						\hline
-						579.1 & 黄色 \\
-						\hline
-						577.0 & 黄色 \\
-						\hline
-						546.1 & 绿色 \\
-						\hline
-						435.8 & 蓝色 \\
-						\hline
-						404.7 & 紫色 \\
-						\hline
-							
-					\end{tabular}
-					\caption{不同波长对应的谱线颜色}
-					\label{tab:table1}
-				\end{table}
-				
-				对比实验数据与标准数据，计算相对误差，结果如表\ref{tab:table2}：
+				通过查阅相关资料得到标准数据，对比实验数据与标准数据，计算相对误差，结果如表\ref{tab:table2}：
+				相对误差均在$0.05\%$左右，说明实验精度还是较高的。
 				
 				\begin{table}[htbp]
 					\centering
@@ -478,10 +496,31 @@
 					\label{tab:table2}
 				\end{table}
 				
-				相对误差均在$0.05\%$左右，说明实验精度还是较高的。
+				\begin{figure}[htbp]
+					\centering
+					\includegraphics[width=0.8\textwidth]{HgSpectrum1.png}
+					\caption{实验测得的汞灯光谱}
+					\label{fig:HgSpectrum1}
+				\end{figure}
+				
+				
+				
+				\clearpage
 				
 			\item \textbf{拍摄手机屏幕光谱}
 				
+				观察图\ref{fig:phone-1}可以发现，手机所发出的光谱是连续谱，并且在“红”“绿”“蓝”三色的强度较高。
+				
+				这是由于手机屏幕通常采用的是发光二极管（LED）技术。在手机屏幕上，红色通常由铝镓砷（AlGaAs）或镓磷化铝（AlInGaP）LED发出，绿色通常由铟镓磷（InGaN）LED发出，蓝色通常由氮化镓（GaN）LED发出。这些LED发出的光在光谱中会表现为特定的谱线，即红、绿、蓝三色。
+				
+				在LED中，电流通过半导体材料时，激发了材料中的电子，使其跃迁到一个较高能级，然后再返回到低能级。当电子跃迁时，会释放能量，这些能量以光子的形式释放出来，产生光。不同的半导体材料和材料结构会导致释放的光子具有不同的能量和频率。在手机屏幕中，红色、绿色和蓝色LED分别释放的光子具有不同的频率，形成了连续的光谱。
+				
+				\begin{figure}[htbp]
+					\centering
+					\includegraphics[width=1\textwidth]{phone-1.png}
+					\caption{手机屏幕光谱}
+					\label{fig:phone-1}
+				\end{figure}
 				
 		\end{enumerate}
 		
@@ -489,9 +528,87 @@
 		
 	\subsubsection{实验二 原子吸收光谱的观测}
 			
+		\begin{enumerate}
+			\item \textbf{验证比尔定律}
+				
+				将得到的数据绘制在一张表内，如图\ref{fig:KMnO4-1}所示
+				
+				初步观察可知三个大吸收峰集中在500nm-600nm之间，则放大后，将三个吸收峰都标出，如图\ref{fig:KMnO4-2}所示
+				
+				\begin{figure}[htbp]
+					\centering
+					\includegraphics[width=0.8\textwidth]{KMnO4-1.png}
+					\caption{不同浓度的$KMnO_4$溶液对吸收率的影响}
+					\label{fig:KMnO4-1}
+				\end{figure}
+				
+				\begin{figure}[htbp]
+					\centering
+					\includegraphics[width=0.8\textwidth]{KMnO4-2.png}
+					\caption{三个吸收峰}
+					\label{fig:KMnO4-2}
+				\end{figure}
+				
+				将所得数据绘制成表，如表\ref{table:table1}所示
+				
+				\begin{table}
+					\centering
+					\begin{tblr}{
+							cells = {c},
+							vline{2} = {-}{},
+							hline{1-2,8} = {-}{},
+						}
+						浓度/(g/L) & 吸收峰1  & 吸收峰2  & 吸收峰3  \\
+						0.01     & 1.231 & 1.553 & 1.475 \\
+						0.02     & 1.067 & 1.312 & 1.249 \\
+						0.04     & 0.765 & 0.953 & 0.898 \\
+						0.06     & 0.586 & 0.698 & 0.653 \\
+						0.08     & 0.511 & 0.535 & 0.485 \\
+						0.1      & 0.177 & 0.195 & 0.176 
+					\end{tblr}
+					\caption{同一吸收峰对应的不同浓度溶液的吸收率}
+					\label{table:table1}
+				\end{table}
+				
+				则以浓度为横轴，吸收率为纵轴，绘制线性拟合图。如图\ref{fig:Absorbance0}所示
+				
+				\begin{figure}[htbp]
+					\centering
+					\includegraphics[width=0.8\textwidth]{Absorbance0.png}
+					\caption{浓度与吸收率之间的关系}
+					\label{fig:Absorbance0}
+				\end{figure}
+				
+				由计算结果可以看出，相关系数均在0.98以上，说明数据之间有很强的线性相关性质，则验证了比尔定律成立。
+				
+				
+				
+			\item \textbf{验证朗伯定律}
+				
+				将所得数据绘制成图，如图\ref{fig:plate-1}所示
+		
+				\begin{figure}[htbp]
+					\centering
+					\includegraphics[width=0.8\textwidth]{plate-1.png}
+					\caption{拨片数量与透射率的关系}
+					\label{fig:plate-1}
+				\end{figure}
 			
+				取三个波长分析，玻璃片数量做横轴，透射率的自然对数做纵轴，绘制线性拟合图像， 如图\ref{fig:Transmission1}所示
+				
+				\begin{figure}[htbp]
+					\centering
+					\includegraphics[width=0.8\textwidth]{Transmission1.png}
+					\caption{拨片数量与透射率的关系}
+					\label{fig:Transmission1}
+				\end{figure}
+				
+				由计算结果可知，相关系数均为-1，即数据之间的线性关系非常强，则可验证朗伯定律。
+	
+		\end{enumerate}
 			
-			
+		
+		
 \subsection{实验后思考题}
 
 
@@ -500,17 +617,48 @@
 	 钠灯光谱有哪些特征？能否从光谱图上判别各谱线所属线系？举例说明。
 \end{question}
 	
+	钠灯有以下几个显著特征
+	\begin{enumerate}
+		\item \textbf{双线结构}：钠灯光谱主要由两条明显的谱线组成，分别位于黄色和橙色区域。这两条谱线称为钠D线，波长分别约为589.0 nm（黄线）和589.6 nm（橙线）。
+		
+		\item \textbf{窄线宽}：钠灯的谱线非常窄，说明其光源是相对单色的。
+		
+		\item \textbf{强度不均}：两条谱线的强度不完全相等，通常黄线比橙线略强。
+	\end{enumerate}
+	
+	从光谱图上可以判别各谱线所属的线系。例如，钠原子光谱有四个线系：主线系、锐线系、漫线系、基线系。
+	
+%	\begin{itemize}
+%		\item 主线系：3S-nP，n=3,4,5等
+%		
+%		\item 锐线系：3P-nS，n=4,5,6等
+%		
+%		\item 漫线系：3P-nD，n=3,4,5等
+%		
+%		\item 基线系：3D-nF，n=4,5,6等（基线系的强度很小，且在红外区，通常观察不到）
+%	\end{itemize}
 	
 	
+	谱线的判别可以通过观察其形状和宽度来进行。锐线系的谱线通常较尖锐，而漫线系的谱线则较为平滑。例如，如果在光谱图上观察到一条尖锐的谱线，它可能属于锐线系。而一条较宽且平滑的谱线可能属于漫线系。
 	
 	
 \begin{question}
 	在发射光谱和吸收光谱测量中，光路有何异同？
 \end{question}
 	
+	相同点：
+	\begin{itemize}
+		\item 都是由光源发射光经过光纤导入进光栅光谱仪，然后软件根据得到的数据进行数据分析。
 	
+		
+	\end{itemize}
 	
-	
+	不同点：
+	\begin{itemize}
+		\item 在发射光谱的测量实验中，光源发出的光直接通过环境，经过光纤导入进光谱仪；而在吸收光谱的实验中，光源发出的光首先会经过样品，然后再通过光纤导入进光谱仪。
+		
+		
+	\end{itemize}
 	
 	
 	
@@ -518,9 +666,21 @@
 	根据高锰酸钾溶液的吸收光谱， 应如何选择理想光源，为什么？
 \end{question}
 	
+	选择理想的光源来测量高锰酸钾溶液的吸收光谱时，需要考虑以下几个因素：
 	
+	\begin{enumerate}
+		\item 波长范围：高锰酸钾的吸收光谱在紫外-可见光区域（约200-700 nm）都有特征吸收峰，因此理想的光源应该能够提供这个波长范围内的连续光谱。
+		
+		\item 光强：光源的光强应足够高，以确保光在经过高锰酸钾溶液后仍然能够被探测器检测到。在吸收光谱测量中，通常希望光强尽可能高，以提高信噪比。
+		
+		\item 稳定性：光源应该具有良好的光谱稳定性，即光强和波长不随时间变化太多，以确保测量结果的准确性和可重复性。
+		
+		\item 波长调节能力：为了匹配高锰酸钾吸收峰的波长，理想的光源应该具有波长调节能力，可以在需要时调节输出光的波长。
+		
+		
+	\end{enumerate}
 	
-	
+	基于以上因素，常用的理想光源包括氘灯和钨灯。氘灯在紫外光谱区域（约200-400 nm）具有很高的光强，而钨灯在可见光和近红外光谱区域（约400-700 nm）具有很高的光强。因此，结合氘灯和钨灯的优势可以覆盖高锰酸钾溶液吸收光谱的整个波长范围。
 	
 	
 	
