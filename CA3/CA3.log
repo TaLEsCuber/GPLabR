@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.9.8)  10 MAR 2024 18:50
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.9.8)  12 MAR 2024 14:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1293,16 +1293,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \hskip 10.95pt
-(hyperref)                replaced by space on input line 88.
+(hyperref)                replaced by space on input line 85.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \hskip 10.95pt
-(hyperref)                replaced by space on input line 88.
+(hyperref)                replaced by space on input line 85.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\heiti' on input line 88.
+(hyperref)                removing `\heiti' on input line 85.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1355,21 +1355,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \hskip 10.95pt
-(hyperref)                replaced by space on input line 263.
+(hyperref)                replaced by space on input line 260.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                \hskip 10.95pt
+(hyperref)                replaced by space on input line 260.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\heiti' on input line 260.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \hskip 10.95pt
 (hyperref)                replaced by space on input line 263.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\heiti' on input line 263.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                \hskip 10.95pt
-(hyperref)                replaced by space on input line 266.
 
 File: ./images//Na2.png Graphic file (type bmp)
 <./images//Na2.png>
@@ -1396,7 +1396,7 @@ File: ./images//phone.png Graphic file (type bmp)
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \hskip 10.95pt
-(hyperref)                replaced by space on input line 336.
+(hyperref)                replaced by space on input line 333.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1428,29 +1428,24 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \hskip 10.95pt
-(hyperref)                replaced by space on input line 403.
+(hyperref)                replaced by space on input line 400.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \hskip 10.95pt
-(hyperref)                replaced by space on input line 403.
+(hyperref)                replaced by space on input line 400.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\heiti' on input line 403.
+(hyperref)                removing `\heiti' on input line 400.
 
-Missing character: There is no ′ (U+2032) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ′ (U+2032) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ′ (U+2032) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ′ (U+2032) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ′ (U+2032) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ′ (U+2032) in font [lmroman10-regular]:mapping=t
-ex-text;!
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                \hskip 10.95pt
+(hyperref)                replaced by space on input line 404.
+
+File: ./images//graph10.png Graphic file (type bmp)
+<./images//graph10.png>
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1461,87 +1456,20 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [11
 
-]
-Missing character: There is no ′ (U+2032) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ′ (U+2032) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ′ (U+2032) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ′ (U+2032) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ′ (U+2032) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ′ (U+2032) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ′ (U+2032) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ′ (U+2032) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ′ (U+2032) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ′ (U+2032) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ′ (U+2032) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ′ (U+2032) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ′ (U+2032) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ′ (U+2032) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ′ (U+2032) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ′ (U+2032) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ′ (U+2032) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ′ (U+2032) in font [lmroman10-regular]:mapping=t
-ex-text;!
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[12]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[13]
-
-Package tcolorbox Warning: Using nobreak failed. Try to enlarge `lines before b
-reak' or set page breaks manually on input line 564.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[14] (./CA3.aux)
+] (./CA3.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `CA3.out' has not changed.
-(rerunfilecheck)             Checksum: 54B13BCB0EBD511291760F35505B9A0A;2325.
+(rerunfilecheck)             Checksum: 848D108A9D7CB909D2494FE8236682E9;2320.
  ) 
 Here is how much of TeX's memory you used:
- 37397 strings out of 476683
- 810890 string characters out of 5807576
+ 37373 strings out of 476683
+ 809075 string characters out of 5807576
  1880012 words of memory out of 5000000
- 57040 multiletter control sequences out of 15000+600000
+ 57015 multiletter control sequences out of 15000+600000
  519209 words of font info for 87 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 105i,12n,107p,443b,974s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 105i,12n,107p,443b,968s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on CA3.pdf (14 pages).
+Output written on CA3.pdf (11 pages).

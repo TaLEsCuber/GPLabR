@@ -72,9 +72,6 @@
 			\item 信号强度不能过饱和值；
 			\item 光源长时间通电后会\textcolor{red}{\textbf{发热}}，小心烫手，切换光源时务必注意（可等断电冷却后再碰）；
 			\item \textcolor{red}{\textbf{请提前了解光纤光谱仪的基本工作原理与关键参数等。}}
-		
-		
-
 		\end{enumerate}
 \end{enumerate}
 
@@ -404,155 +401,30 @@
 
 \subsection{实验数据分析}
 
-	\subsubsection{实验一 测量光栅常数}
-		由表1中的数据，可计算得到各级衍射条纹的衍射角，如下表所示
+	\subsubsection{实验一 \quad 原子发射光谱的观测}
 		
-		\begin{center}
-			\begin{tabular}{|c|c|c|c|}
-				\hline
-				$\varphi_{+1}$ & $\varphi_{+2}$ & $\varphi_{-1}$ & $\varphi_{-2}$ \\
-				\hline
-				10°09′ & 20°37′ & 10°10′ & 20°47′ \\
-				\hline
-			\end{tabular}
-		\end{center}
-
+		查阅资料可知，钠原子能级的量子亏损数如图\ref{fig:graph10}所示
 		
-		则可由正负级衍射角计算平均值，并根据光栅衍射公式$k\lambda=d\sin{\varphi}$，计算光栅常数，其中钠灯的谱线已知，取$\lambda=589.4nm$，则计算结果如下表所示
+		钠原子光谱的主线系只有$\widetilde{v}=3p \rightarrow 3s$ 的二条谱线（钠双黄线）是在可见区，其余在紫外区。
+		则根据公式：
+		\[
+		\widetilde{v}=R(\frac{1}{n_2^{*2}}-\frac{1}{n_1^{*2}})=\frac{R}{{(n'-{\mu'}_{l'})}^2}-\frac{R}{{(n-\mu_l)}^2}
+		\]
 		
-		\begin{center}
-			\begin{tabular}{|c|c|c|}
-				\hline
-				$\varphi_1$ & $\varphi_2$ &  \\
-				\hline
-				10°09′ & 20°42′ &  \\
-				\hline
-				$d_1$ & $d_2$ & $\overline{d}$ \\
-				\hline
-				$3.344\times{10}^{-6}m$ & $3.334\times{10}^{-6}m$ & $3.339\times{10}^{-6}m$ \\
-				\hline
-			\end{tabular}
-		\end{center}
-
-		下面计算不确定度：
+		初态为$3p$能级，$n=3$，$l=1$，$\mu_l=0.883$；末态为$3s$能级，$n'=3$，$l'=0$，$\mu'_{l'}=1.373$
 		
-		\begin{enumerate}
-			\item  角度的重复测量引起的标准不确定度分量$u_1$,
-					\[ u_1=\sqrt{\sum{(\left|\frac{\partial d}{\partial\varphi_i}\right|\sigma_i)}^2}=4.55\times{10}^{-8}m \]
-					
-			\item  仪器的示值误差引起的标准不确定度分量$u_2$，由分光计游标最小分度值1’，按照均匀分布考虑
-					\[ u_2=\sqrt{\sum{(\left|\frac{\partial d}{\partial\varphi_i}\right|\sigma_i)}^2}=1.99\times{10}^{-7}m \]
-			
-			\item  合成不确定度
-					\[ u_c=\sqrt{\sum{(u_i)}^2}=2.04\times{10}^{-7}m \]
-			
-			\item 展伸不确定度\\
-					考虑正态分布，取置信概率为95\%，查表得包含因子$k=1.96$
-					
-					则最终测量结果表示为 $ d=\bar{d}\pm ku_c=(3.34\pm0.40)\times{10}^{-6}m$
-					
-					
-		\end{enumerate}
+		则代入公式，计算得到
 		
-		分析误差来源
-			\begin{enumerate}
-				\item 可能是由于光栅本身的刻线不均匀，或者刻线与仪器转轴不平行，导致不同级次之间的测量数据计算所得结果之间有较大误差；这是仪器本身的系统误差，无法消除，只能通过更换质量更好的光栅来避免。
-				
-				\item 平行光管进光狭缝的宽度可能过宽，使得入射谱线的宽度也变宽，则会降低谱线的分辨率和对比度，使得测量衍射角时不准确，从而影响计算结果。
-			\end{enumerate}
+		\begin{figure}[htbp]
+			\centering
+			\includegraphics[width=1\textwidth]{graph10.png}
+			\caption{钠原子能级的量子数亏损$\mu_l$}
+			\label{fig:graph10}
+		\end{figure}
 		
-		
-		\subsubsection{实验二 测定未知光波波长及角色散率D}
+	\subsubsection{实验二 原子吸收光谱的观测}
 			
-			根据表2数据，重复实验一中的处理操作，计算正负级衍射角，计算平均值，并根据光栅衍射公式$k\lambda=d\sin{\varphi}$，计算不同衍射谱线对应光波波长，式中光栅常数取实验一中的计算结果 $d=3.34\times{10}^{-6}m$ ,则计算结果如下表所示
 			
-			\begin{center}
-				\begin{tabular}{|c|c|c|c|}
-					\hline
-					\textbf{颜色} & \textbf{蓝色(b)} & \textbf{绿色(g)} & \textbf{黄色(y)} \\
-					\hline
-					$\varphi_{+1}$ & 07°29′ & 09°22′ & 09°58′ \\
-					$\varphi_{+2}$ & 15°07′ & 19°02′ & 20°11′ \\
-					$\varphi_{-1}$ & 07°32′ & 09°29′ & 10°00′ \\
-					$\varphi_{-2}$ & 15°12′ & 19°10′ & 20°23′ \\
-					\hline
-					&  &  &  \\
-					\hline
-					$\varphi_1$ & 07°30′ & 09°25′ & 09°59′ \\
-					$\varphi_2$ & 15°10′ & 19°06′ & 20°17′ \\
-					\hline
-					&  &  &  \\
-					\hline
-					$\lambda_1$ & 435.83nm & 546.30nm & 578.86nm \\
-					$\lambda_2$ & 436.79nm & 546.29nm & 578.75nm \\
-					$\overline{\lambda}$ & 436.31nm & 546.30nm & 578.80nm \\
-					\hline
-				\end{tabular}
-			\end{center}
-
-			下面计算不确定度：
-				
-			\begin{enumerate}
-					\item 	角度的重复测量引起的标准不确定度分量$u_1$,
-							\[ u_{b1}=\sqrt{\sum\left(\left|\frac{\partial\lambda}{\partial\varphi_i}\right|\sigma_i\right)^2}=0.402nm \]
-							\[ u_{g1}=\sqrt{\sum\left(\left|\frac{\partial\lambda}{\partial\varphi_i}\right|\sigma_i\right)^2}=1.14nm \]
-							\[ u_{y1}=\sqrt{\sum{(\left|\frac{\partial\lambda}{\partial\varphi_i}\right|\sigma_i)}^2}=1.36nm \]
-					
-					\item 仪器的示值误差引起的标准不确定度分量$u_2$，\\
-							由分光计游标最小分度值1’，按照均匀分布考虑
-							\[ u_{b2}=\sqrt{\sum{(\left|\frac{\partial\lambda}{\partial\varphi_i}\right|\sigma_i)}^2}=0.10nm \]
-							\[ u_{g2}=\sqrt{\sum\left(\left|\frac{\partial\lambda}{\partial\varphi_i}\right|\sigma_i\right)^2}=0.13nm \]
-							\[ u_{y2}=\sqrt{\sum{(\left|\frac{\partial\lambda}{\partial\varphi_i}\right|\sigma_i)}^2}=0.14nm \]
-					
-					\item 合成不确定度
-							\[ u_{cb}=\sqrt{\sum{(u_i)}^2}=0.41nm  \quad u_{cg}=\sqrt{\sum\left(u_i\right)^2}=1.15nm  \quad u_{cy}=\sqrt{\sum{(u_i)}^2}=1.36nm \]
-					
-					\item 展伸不确定度
-							考虑正态分布，取置信概率为95\%，查表得包含因子$k=1.96$ \\
-							则最终测量结果表示为
-							\[ \lambda_b=(436.31\pm0.41)nm  \quad \lambda_g=\left(546.30\pm1.15\right)nm \quad  \lambda_y=(578.80\pm1.36)nm \]
-					
-				\end{enumerate}
-		
-			将各谱线波长计算值与标准值比较（预习报告中所查得的数据），计算各谱线波长的相对误差(计算黄光谱线相对误差时，参考值取两条黄色谱线的平均波长)，得到
-			\[ \eta_b=\left|\frac{435.8-436.31}{435.8}\right|\times100\%=0.117\% \]
-			\[ \eta_g=\left|\frac{546.1-546.30}{546.1}\right|\times100\%=0.037\% \]
-			\[ \eta_y=\left|\frac{578.05-578.80}{578.05}\right|\times100\%=0.130\% \]
-			
-			下面计算角色散率，根据角色散率公式$D=\frac{d\theta}{d\lambda}=\frac{k}{d\cos{\theta}}$，由上表数据计算得
-			
-				\begin{center}
-					\begin{tabular}{|c|c|c|c|}
-						\hline
-						\textbf{颜色} & \textbf{蓝色} & \textbf{绿色} & \textbf{黄色} \\
-						\hline
-						D1 & $2.98\times 10^{5} m^{-1}$ & $2.99\times 10^{5} m^{-1}$ & $3.00\times 10^{5} m^{-1}$ \\
-						D2 & $6.11\times 10^{5} m^{-1}$ & $6.24\times 10^{5} m^{-1}$ & $6.29\times 10^{5} m^{-1}$ \\
-						\hline
-					\end{tabular}
-				\end{center}
-
-
-			
-			下面计算角色散率的不确定度，重复上面的操作，最终包含不确定度结果如下表所示
-			
-			\begin{center}
-				\begin{tabular}{|c|c|c|c|}
-					\hline
-					\textbf{颜色} & \textbf{蓝色} & \textbf{绿色} & \textbf{黄色} \\
-					\hline
-					D1 & $2.98 \pm 0.002 \times 10^{5} m^{-1}$ & $2.99 \pm 0.03 \times 10^{5} m^{-1}$ & $3.00 \pm 0.01 \times 10^{5} m^{-1}$ \\
-					D2 & $6.11 \pm 0.07 \times 10^{5} m^{-1}$ & $6.24 \pm 0.004 \times 10^{5} m^{-1}$ & $6.29 \pm 0.10 \times 10^{5} m^{-1}$ \\
-					\hline
-				\end{tabular}
-			\end{center}
-			
-			分析误差来源：
-			
-			\begin{enumerate}
-				\item 			观察数据可发现，在测量2级谱线时，正负级衍射角的差偏大，个别数据甚至超过了10’（由于超过10’的数据是最后一组测量数据，故没有及时发现），说明光栅并未完全与平行光管光轴垂直，存在一个小角度偏差，引入了一定的系统误差。
-				\item 			平行光管进光狭缝的宽度可能过宽，使得入射谱线的宽度也变宽，则会降低谱线的分辨率和对比度，使得测量衍射角时不准确，从而影响计算结果。
-			\end{enumerate}
 			
 			
 \subsection{实验后思考题}
