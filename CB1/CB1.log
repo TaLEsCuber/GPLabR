@@ -1,9 +1,9 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.9.8)  9 MAR 2024 15:23
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.9.8)  11 MAR 2024 23:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**GPLabRTem.tex
-(./GPLabRTem.tex
+**CB1.tex
+(./CB1.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-02-22>
 (d:/texlive/2023/texmf-dist/tex/latex/base/article.cls
@@ -1060,15 +1060,8 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 \enit@inbox=\box94
 \enit@count@id=\count379
 \enitdp@description=\count380
-) (./GPLabRTem.aux
-
-LaTeX Warning: Label `tab:mytable' multiply defined.
-
-
-LaTeX Warning: Label `tab:mytable@cref' multiply defined.
-
-)
-\openout1 = `GPLabRTem.aux'.
+) (./CB1.aux)
+\openout1 = `CB1.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
 LaTeX Font Info:    ... okay on input line 22.
@@ -1182,9 +1175,9 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package hyperref Info: Link coloring ON on input line 22.
-(./GPLabRTem.out) (./GPLabRTem.out)
+(./CB1.out) (./CB1.out)
 \@outlinefile=\write4
-\openout4 = `GPLabRTem.out'.
+\openout4 = `CB1.out'.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
@@ -1192,9 +1185,8 @@ Package caption Info: listings package is loaded.
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count381
-
-(d:/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd)
-(d:/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd)
+ (d:/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd) (d:/texlive/2023/texmf
+-dist/tex/latex/amsfonts/umsb.fd)
 
 Package fontspec Info: Could not resolve font "KaiTi/BI" (it probably doesn't
 (fontspec)             exist).
@@ -1253,7 +1245,7 @@ Package fontspec Info: Font family 'SimSun(1)' created for font 'SimSun' with
 (fontspec)             <->"SimSun/OT:script=hani;language=dflt;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
- (./GPLabRTem.toc
+ (./CB1.toc
 
 Package fontspec Info: Could not resolve font "SimHei/BI" (it probably doesn't
 (fontspec)             exist).
@@ -1284,7 +1276,7 @@ LaTeX Font Warning: Font shape `TU/SimHei(0)/b/n' undefined
 
 )
 \tf@toc=\write5
-\openout5 = `GPLabRTem.toc'.
+\openout5 = `CB1.toc'.
 
 
 
@@ -1301,17 +1293,19 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \hskip 10.95pt
-(hyperref)                replaced by space on input line 75.
+(hyperref)                replaced by space on input line 84.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \hskip 10.95pt
-(hyperref)                replaced by space on input line 75.
+(hyperref)                replaced by space on input line 84.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\heiti' on input line 75.
+(hyperref)                removing `\heiti' on input line 84.
 
+File: ./images//graph1.png Graphic file (type bmp)
+<./images//graph1.png>
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1323,8 +1317,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [3
 
 ]
-Missing character: There is no ^^A (U+0001) in font [lmroman10-regular]:mapping
-=tex-text;!
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1337,16 +1329,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \hskip 10.95pt
-(hyperref)                replaced by space on input line 249.
+(hyperref)                replaced by space on input line 173.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \hskip 10.95pt
-(hyperref)                replaced by space on input line 249.
+(hyperref)                replaced by space on input line 173.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\heiti' on input line 249.
+(hyperref)                removing `\heiti' on input line 173.
 
 Missing character: There is no ′ (U+2032) in font [lmroman10-regular]:mapping=t
 ex-text;!
@@ -1370,11 +1362,11 @@ Missing character: There is no ′ (U+2032) in font [lmroman10-regular]:mapping=
 ex-text;!
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 290.
+(hyperref)                removing `math shift' on input line 214.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 290.
+(hyperref)                removing `math shift' on input line 214.
 
 Missing character: There is no ′ (U+2032) in font [lmroman10-regular]:mapping=t
 ex-text;!
@@ -1467,16 +1459,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \hskip 10.95pt
-(hyperref)                replaced by space on input line 363.
+(hyperref)                replaced by space on input line 287.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \hskip 10.95pt
-(hyperref)                replaced by space on input line 363.
+(hyperref)                replaced by space on input line 287.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\heiti' on input line 363.
+(hyperref)                removing `\heiti' on input line 287.
 
 Missing character: There is no ′ (U+2032) in font [lmroman10-regular]:mapping=t
 ex-text;!
@@ -1557,7 +1549,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [10]
 
 Package tcolorbox Warning: Using nobreak failed. Try to enlarge `lines before b
-reak' or set page breaks manually on input line 524.
+reak' or set page breaks manually on input line 448.
 
 File: D:/大学各种资料/2023大二/2023大二上/基础物理实验I/5.光栅常数及光波波长的测量/SYSU-SPA-Labreport-Templa
 te-main/images/table.jpg Graphic file (type bmp)
@@ -1571,7 +1563,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[11] (./GPLabRTem.bbl
+[11] (./CB1.bbl
 
 LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
@@ -1588,7 +1580,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 ]
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 563.
+nput line 487.
 
 Package fontspec Info: Could not resolve font "FangSong/BI" (it probably
 (fontspec)             doesn't exist).
@@ -1613,7 +1605,7 @@ Package fontspec Info: Font family 'FangSong(0)' created for font 'FangSong'
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
 LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <10> not available
-(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 564.
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 488.
 File: ./images//example1.png Graphic file (type bmp)
 <./images//example1.png>
 
@@ -1630,7 +1622,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 ]
 
 LaTeX Font Warning: Font shape `TU/KaiTi(0)/b/n' undefined
-(Font)              using `TU/KaiTi(0)/m/n' instead on input line 591.
+(Font)              using `TU/KaiTi(0)/m/n' instead on input line 515.
 
 
 Package fontspec Info: Could not resolve font "Microsoft YaHei Bold/I" (it
@@ -1689,23 +1681,20 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[16] (./GPLabRTem.aux)
+[16] (./CB1.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were multiply-defined labels.
-
-Package rerunfilecheck Info: File `GPLabRTem.out' has not changed.
-(rerunfilecheck)             Checksum: F1AB580B0C02C6ED8131268F2A90D2A5;2470.
+Package rerunfilecheck Info: File `CB1.out' has not changed.
+(rerunfilecheck)             Checksum: A6B7777B7FFDD13AA799CEAD43B2ADFA;2545.
  ) 
 Here is how much of TeX's memory you used:
- 37711 strings out of 476683
- 819234 string characters out of 5807576
+ 37839 strings out of 476683
+ 826774 string characters out of 5807576
  1946012 words of memory out of 5000000
- 57311 multiletter control sequences out of 15000+600000
+ 57438 multiletter control sequences out of 15000+600000
  519417 words of font info for 113 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 105i,13n,107p,449b,1409s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 105i,13n,107p,443b,1409s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on GPLabRTem.pdf (16 pages).
+Output written on CB1.pdf (16 pages).
