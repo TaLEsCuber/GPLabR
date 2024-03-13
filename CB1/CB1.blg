@@ -2,13 +2,8 @@ This is BibTeX, Version 0.99d (TeX Live 2023)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: CB1.aux
 The style file: unsrt.bst
-I couldn't open database file myref.bib
----line 55 of file CB1.aux
- : \bibdata{myref
- :               }
-I'm skipping whatever remains of this command
 I found no \citation commands---while reading file CB1.aux
-I found no database files---while reading file CB1.aux
+Database file #1: myref.bib
 You've used 0 entries,
             1791 wiz_defined-function locations,
             445 strings with 3509 characters,
@@ -50,4 +45,4 @@ warning$ -- 0
 while$ -- 0
 width$ -- 0
 write$ -- 2
-(There were 3 error messages)
+(There was 1 error message)
