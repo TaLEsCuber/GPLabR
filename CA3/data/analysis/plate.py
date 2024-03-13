@@ -64,7 +64,7 @@ for file_name in os.listdir(folder_path):
         all_data = pd.concat([all_data, pd.DataFrame({'PlateNumber': [plates]*3, 'Wavelength': [500, 600, 700], 'Transmittance': [data_500nm, data_600nm, data_700nm]})])
 
 # 保存所有数据到一个CSV文件中
-all_data.to_csv('all_data.csv', index=False)
+# all_data.to_csv('all_data.csv', index=False)
 
 # 设置图形标题和标签
 plt.xlabel('Wavelength [nm]')

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.9.8)  13 MAR 2024 03:25
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.9.8)  14 MAR 2024 00:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1554,26 +1554,34 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \hskip 10.95pt
-(hyperref)                replaced by space on input line 432.
+(hyperref)                replaced by space on input line 430.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \hskip 10.95pt
-(hyperref)                replaced by space on input line 432.
+(hyperref)                replaced by space on input line 430.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\heiti' on input line 432.
+(hyperref)                removing `\heiti' on input line 430.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \hskip 10.95pt
-(hyperref)                replaced by space on input line 436.
+(hyperref)                replaced by space on input line 434.
 
-File: ./images//NaSpectrum1.png Graphic file (type bmp)
-<./images//NaSpectrum1.png>
 File: ./images//graph10.png Graphic file (type bmp)
 <./images//graph10.png>
+File: ./images//NaSpectrum1.png Graphic file (type bmp)
+<./images//NaSpectrum1.png>
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
 File: ./images//HgSpectrum1.png Graphic file (type bmp)
 <./images//HgSpectrum1.png>
 
@@ -1612,8 +1620,6 @@ File: ./images//KMnO4-2.png Graphic file (type bmp)
 > Step: build the whole table.
 File: ./images//Absorbance0.png Graphic file (type bmp)
 <./images//Absorbance0.png>
-File: ./images//plate-1.png Graphic file (type bmp)
-<./images//plate-1.png>
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1635,8 +1641,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [14]
-File: ./images//Transmission1.png Graphic file (type bmp)
-<./images//Transmission1.png>
+File: ./images//plate-1.png Graphic file (type bmp)
+<./images//plate-1.png>
+File: ./images//Transmittance2.png Graphic file (type bmp)
+<./images//Transmittance2.png>
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1656,6 +1664,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [16]
+File: ./images//table.jpg Graphic file (type bmp)
+<./images//table.jpg>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1668,15 +1679,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `CA3.out' has not changed.
 (rerunfilecheck)             Checksum: 848D108A9D7CB909D2494FE8236682E9;2320.
  ) 
 Here is how much of TeX's memory you used:
- 39825 strings out of 476683
- 871344 string characters out of 5807576
+ 39861 strings out of 476683
+ 872456 string characters out of 5807576
  1880012 words of memory out of 5000000
- 59448 multiletter control sequences out of 15000+600000
- 520563 words of font info for 90 fonts, out of 8000000 for 9000
+ 59483 multiletter control sequences out of 15000+600000
+ 521852 words of font info for 93 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  105i,12n,107p,443b,968s stack positions out of 10000i,1000n,20000p,200000b,200000s
 

@@ -298,7 +298,7 @@
 				重复上述步骤，测量暗噪声和环境噪声。将暗噪声与环境噪声都扣除后，将支架对准汞灯，测量汞灯光谱。
 				
 				
-				得到的汞灯光谱如图\ref{fig:Hg-1}所示：
+				得到的汞灯光谱如图\ref{fig:Hg-1}所示,可看到545.90nm，435.59nm，404.41nm，578.85nm和576.65nm的谱线，最高峰是545.90nm
 				
 				\begin{figure}[htbp]
 					\centering
@@ -376,7 +376,7 @@
 				
 				\begin{figure}[htbp]
 					\centering
-					\includegraphics[width=1\textwidth]{plate-all.png}
+					\includegraphics[width=0.8\textwidth]{plate-all.png}
 					\caption{不同数量玻璃片的透射率曲线}
 					\label{fig:plate-all}
 				\end{figure}
@@ -406,9 +406,7 @@
 	
 	\item 在测量$KMnO_4$溶液的吸收曲线时，要注意标签不能阻挡光路。
 	
-	\item 	
-	
-	\item 	
+
 	
 \end{enumerate}
 	
@@ -440,6 +438,13 @@
 			
 				查阅资料可知，钠原子能级的量子亏损数如图\ref{fig:graph10}所示
 				
+				\begin{figure}[htbp]
+					\centering
+					\includegraphics[width=0.5\textwidth]{graph10.png}
+					\caption{钠原子能级的量子数亏损$\mu_l$}
+					\label{fig:graph10}
+				\end{figure}
+				
 				钠原子光谱的主线系只有$\widetilde{v}=3p \rightarrow 3s$ 的二条谱线（钠双黄线）是在可见区，其余在紫外区。
 				则根据公式：
 				\[
@@ -461,37 +466,55 @@
 					\label{fig:NaSpectrum}
 				\end{figure}
 				
-				\begin{figure}[htbp]
-					\centering
-					\includegraphics[width=0.5\textwidth]{graph10.png}
-					\caption{钠原子能级的量子数亏损$\mu_l$}
-					\label{fig:graph10}
-				\end{figure}
-				
+
+			
 				
 			
 			\item \textbf{拍摄汞灯光谱}
 				
-				通过查阅相关资料得到标准数据，对比实验数据与标准数据，计算相对误差，结果如表\ref{tab:table2}：
+				通过查阅相关资料得到标准数据，对比实验数据与标准数据，根据公式
+				\[ \eta=\frac{\left|\lambda-\lambda_0\right|}{\lambda_0} \]
+				计算相对误差，结果如表\ref{tab:table2}：
 				相对误差均在$0.05\%$左右，说明实验精度还是较高的。
 				
-				\begin{table}[htbp]
+
+				
+%				\begin{table}[htbp]
+%					\centering
+%					\begin{tabular}{|c|c|c|}
+%						\hline
+%						实验值/nm & 标准值/nm & 相对误差    \\
+%						\hline
+%						578.85 & 579.1  & 0.04\%  \\
+%						
+%						576.65 & 577.0  & 0.06\%  \\
+%						
+%						545.90 & 546.1  & 0.04\%  \\
+%						
+%						435.59 & 435.8  & 0.05\%  \\
+%						
+%						404.41 & 404.7  & 0.07\%  \\
+%						\hline
+%					\end{tabular}
+%					\caption{理论值与实验值对比}
+%					\label{tab:table2}
+%				\end{table}
+				
+				% \usepackage{tabularray}
+				\begin{table}
 					\centering
-					\begin{tabular}{|c|c|c|}
-						\hline
-						实验值/nm & 标准值/nm & 相对误差    \\
-						\hline
-						578.85 & 579.1  & 0.04\%  \\
-						
-						576.65 & 577.0  & 0.06\%  \\
-						
-						545.90 & 546.1  & 0.04\%  \\
-						
-						435.59 & 435.8  & 0.05\%  \\
-						
-						404.41 & 404.7  & 0.07\%  \\
-						\hline
-					\end{tabular}
+					\begin{tblr}{
+							cells = {c},
+							vline{1-2,5} = {-}{},
+							hline{1-2,7} = {-}{},
+						}
+						谱线颜色 & 实验值/nm & 标准值/nm & 相对误差   \\
+						黄色   & 578.85 & 579.1  & 0.04\% \\
+						黄色   & 576.65 & 577.0  & 0.06\% \\
+						绿色   & 545.90 & 546.1  & 0.04\% \\
+						蓝色   & 435.59 & 435.8  & 0.05\% \\
+						紫色   & 404.41 & 404.7  & 0.07\% 
+					\end{tblr}
 					\caption{理论值与实验值对比}
 					\label{tab:table2}
 				\end{table}
@@ -579,6 +602,12 @@
 					\label{fig:Absorbance0}
 				\end{figure}
 				
+				比尔定律的数学形式为：
+				\[ A = \alpha c l \]
+				$A$表示吸光度，$\alpha$是摩尔吸光系数，$c$为浓度，$l$是光通过溶液的路径长度。
+				
+				$\alpha$和$l$都是常数，则只需要验证$A$与$c$的线性关系，即可验证比尔定律。
+				
 				由计算结果可以看出，相关系数均在0.98以上，说明数据之间有很强的线性相关性质，则验证了比尔定律成立。
 				
 				
@@ -594,14 +623,22 @@
 					\label{fig:plate-1}
 				\end{figure}
 			
-				取三个波长分析，玻璃片数量做横轴，透射率的自然对数做纵轴，绘制线性拟合图像， 如图\ref{fig:Transmission1}所示
+				取500nm，600nm，700nm三个波长分析，玻璃片数量做横轴，透射率的自然对数做纵轴，绘制线性拟合图像， 如图\ref{fig:Transmittance2}所示
 				
 				\begin{figure}[htbp]
 					\centering
-					\includegraphics[width=0.8\textwidth]{Transmission1.png}
+					\includegraphics[width=0.8\textwidth]{Transmittance2.png}
 					\caption{拨片数量与透射率的关系}
-					\label{fig:Transmission1}
+					\label{fig:Transmittance2}
 				\end{figure}
+				
+				朗伯定律的数学表示式为：
+				\[ I = I_0 e^{-kl} \]
+				吸收系数$k$是波长的函数，在一般吸收的波段内， $k$ 值很小，并且近乎于一常数。
+				
+				则经过数学变形，得到如下公式：
+				\[ \ln \frac{I}{I_0}=-kl \]
+				则只需要验证透射率的自然对数$\ln \frac{I}{I_0}$与$l$的线性关系即可验证朗伯定律，且得到的斜率是吸收系数的相反数。
 				
 				由计算结果可知，相关系数均为-1，即数据之间的线性关系非常强，则可验证朗伯定律。
 	
@@ -646,16 +683,17 @@
 	在发射光谱和吸收光谱测量中，光路有何异同？
 \end{question}
 	
-	相同点：
+	\textbf{相同点}：
 	\begin{itemize}
 		\item 都是由光源发射光经过光纤导入进光栅光谱仪，然后软件根据得到的数据进行数据分析。
 	
 		
 	\end{itemize}
 	
-	不同点：
+	\textbf{不同点}：
 	\begin{itemize}
-		\item 在发射光谱的测量实验中，光源发出的光直接通过环境，经过光纤导入进光谱仪；而在吸收光谱的实验中，光源发出的光首先会经过样品，然后再通过光纤导入进光谱仪。
+		\item 在发射光谱的测量实验中，光源发出的光直接通过环境，经过光纤导入进光谱仪；\\
+		而在吸收光谱的实验中，光源发出的光首先会经过样品，然后再通过光纤导入进光谱仪。
 		
 		
 	\end{itemize}
@@ -669,13 +707,13 @@
 	选择理想的光源来测量高锰酸钾溶液的吸收光谱时，需要考虑以下几个因素：
 	
 	\begin{enumerate}
-		\item 波长范围：高锰酸钾的吸收光谱在紫外-可见光区域（约200-700 nm）都有特征吸收峰，因此理想的光源应该能够提供这个波长范围内的连续光谱。
+		\item \textbf{波长范围}：高锰酸钾的吸收光谱在紫外-可见光区域（约200-700 nm）都有特征吸收峰，因此理想的光源应该能够提供这个波长范围内的连续光谱。
 		
-		\item 光强：光源的光强应足够高，以确保光在经过高锰酸钾溶液后仍然能够被探测器检测到。在吸收光谱测量中，通常希望光强尽可能高，以提高信噪比。
+		\item \textbf{光强}：光源的光强应足够高，以确保光在经过高锰酸钾溶液后仍然能够被探测器检测到。在吸收光谱测量中，通常希望光强尽可能高，以提高信噪比。
 		
-		\item 稳定性：光源应该具有良好的光谱稳定性，即光强和波长不随时间变化太多，以确保测量结果的准确性和可重复性。
+		\item \textbf{稳定性}：光源应该具有良好的光谱稳定性，即光强和波长不随时间变化太多，以确保测量结果的准确性和可重复性。
 		
-		\item 波长调节能力：为了匹配高锰酸钾吸收峰的波长，理想的光源应该具有波长调节能力，可以在需要时调节输出光的波长。
+		\item \textbf{波长调节能力}：为了匹配高锰酸钾吸收峰的波长，理想的光源应该具有波长调节能力，可以在需要时调节输出光的波长。
 		
 		
 	\end{enumerate}
@@ -683,7 +721,12 @@
 	基于以上因素，常用的理想光源包括氘灯和钨灯。氘灯在紫外光谱区域（约200-400 nm）具有很高的光强，而钨灯在可见光和近红外光谱区域（约400-700 nm）具有很高的光强。因此，结合氘灯和钨灯的优势可以覆盖高锰酸钾溶液吸收光谱的整个波长范围。
 	
 	
-	
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[width=0.35\textwidth]{table.jpg}
+		\caption{整理后实验桌照片}
+		\label{fig:table}
+	\end{figure}
 	
 	
 	
