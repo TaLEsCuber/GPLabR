@@ -1,0 +1,653 @@
+%!TEX program = xelatex
+\documentclass[dvipsnames, svgnames,a4paper,11pt]{article}
+% ----------------------------------------------------
+%   中山大学物理与天文学院本科实验报告模板
+%   作者：Huanyu Shi，2019级
+%   知乎：https://www.zhihu.com/people/za-ran-zhu-fu-liu-xing
+%   Github：https://github.com/huanyushi/SYSU-SPA-Labreport-Template
+%   Last update : 2023.4.10
+% ----------------------------------------------------
+
+\input{Settings} % 导入模板的相关设置
+\usepackage{lipsum}
+\usepackage{enumitem}
+\setlist[enumerate]{label=\textup{(\arabic*)}}
+
+
+
+%---------------------------------------------------------------------
+%	正文
+%---------------------------------------------------------------------
+
+\begin{document}
+
+
+\begin{table}
+	\renewcommand\arraystretch{1.7}
+	\begin{tabularx}{\textwidth}{
+		|X|X|X|X
+		|X|X|X|X|}
+	\hline
+	\multicolumn{2}{|c|}{预习报告}&\multicolumn{2}{|c|}{实验记录}&\multicolumn{2}{|c|}{分析讨论}&\multicolumn{2}{|c|}{总成绩}\\
+	\hline
+	\LARGE25 & & \LARGE30 & & \LARGE25 & & \LARGE80 & \\
+	\hline
+	\end{tabularx}
+\end{table}
+
+
+\begin{table}
+	\renewcommand\arraystretch{1.7}
+	\begin{tabularx}{\textwidth}{|X|X|X|X|}
+	\hline
+	专业：& 物理学 &年级：& 2022级\\
+	\hline
+	姓名：& 戴鹏辉  & 学号： & 2344016 \\
+	\hline
+	日期：& 2024/03/11 & 教师签名：& \\
+	\hline
+	\end{tabularx}
+\end{table}
+
+\begin{center}
+	\LARGE CB1+ \quad 迈克尔逊干涉及应用（白光干涉） 
+\end{center}
+
+\textbf{【实验报告注意事项】}
+\begin{enumerate}
+	\item 实验报告由三部分组成：
+		\begin{enumerate}
+			\item 预习报告：（提前一周）认真研读\underline{\textbf{实验讲义}}，弄清实验原理；实验所需的仪器设备、用具及其使用（强烈建议到实验室预习），完成课前预习思考题；了解实验需要测量的物理量，并根据要求提前准备实验记录表格（第一循环实验已由教师提供模板，可以打印）。预习成绩低于10分（共20分）者不能做实验。
+		    \item 实验记录：认真、客观记录实验条件、实验过程中的现象以及数据。实验记录请用珠笔或者钢笔书写并签名（\textcolor{red}{\textbf{用铅笔记录的被认为无效}}）。\textcolor{red}{\textbf{保持原始记录，包括写错删除部分，如因误记需要修改记录，必须按规范修改。}}（不得输入电脑打印，但可扫描手记后打印扫描件）；离开前请实验教师检查记录并签名。
+		    \item 分析讨论：处理实验原始数据（学习仪器使用类型的实验除外），对数据的可靠性和合理性进行分析；按规范呈现数据和结果（图、表），包括数据、图表按顺序编号及其引用；分析物理现象（含回答实验思考题，写出问题思考过程，必要时按规范引用数据）；最后得出结论。
+		\end{enumerate}
+	\textbf{实验报告就是将预习报告、实验记录、和数据处理与分析合起来，加上本页封面。}
+	
+	\item 每次完成实验后的一周内交\textbf{实验报告}（特殊情况不能超过两周）。
+	
+	\item 除实验记录外，实验报告其他部分建议双面打印。
+\end{enumerate}
+\textbf{【安全注意事项】}
+	\begin{enumerate}
+		\item 实验过程中，光源不要随意打开关闭；
+		\item 严禁用手触光学镜头的表面；
+		\item 严禁用强力和斜向力旋转测微头，这样会损坏测微头或其他部件；
+		\item 不要拆卸传动机构，以免影响仪器正常使用；
+		\item 实验过程中，数条纹时,避免桌面的振动。
+	\end{enumerate}
+
+\clearpage
+\tableofcontents
+\clearpage
+
+\setcounter{section}{0}
+\section{CB1+ \quad 迈克尔逊干涉及应用（白光干涉） \quad\heiti 预习报告}
+	
+\subsection{实验目的}
+\begin{enumerate}
+	\item 观察等倾、等厚干涉现象及调节白光干涉条纹；
+	\item 学习用迈克尔逊干涉仪测量钠光谱波长差的方法；
+	\item 学习用白光干涉测量透明薄片折射率的方法；
+	\item 用迈克尔逊干涉仪测量多种光源的相干长度；
+	
+\end{enumerate}
+
+\subsection{仪器用具}
+	\begin{table}[htbp]
+		\centering
+		\renewcommand\arraystretch{1.6}
+		% \setlength{\tabcolsep}{10mm}
+		\begin{tabular}{p{0.05\textwidth}|p{0.20\textwidth}|p{0.05\textwidth}|p{0.5\textwidth}}
+			\hline
+			编号& 仪器用具名称 & 数量 &  主要参数（型号，测量范围，测量精度等） \\
+			\hline
+			1& 精密干涉仪 & 1 & SGM-3 \\
+			
+			2& He-Ne 激光器 & 1 & -- \\
+			
+			3& 钠钨双灯 & 1 & -- \\
+			
+			4& 汞灯 & 1 & -- \\
+			
+			5& 透明薄片 & 1 & -- \\
+			
+			6& 螺旋测微计 & 1 & -- \\
+			\hline
+		\end{tabular}
+	\end{table}
+
+\subsection{原理概述}
+	
+	\begin{enumerate}
+		\item \textbf{测钠双黄线的波长差}
+			
+			钠黄光含有两种波长相近的光（$\lambda_1 = 589.0 nm$， $\lambda_2 = 589.6 nm$）。 采用钠灯作光源时， 两条谱线形成各自的干涉条纹，在视场中的两套干涉条纹相互叠加。由于波长不同，同级条纹之间会产生错位（$\lambda_1$的某一级的暗条纹可能会和 $\lambda_2$的另一级的亮条纹重合）。 在移动反射镜$M_1$ （光程差发生变化） 过程中，干涉条纹会出现清晰与模糊的周期性变化，称为“光拍现象”。 其原理如下。\\
+			
+			设两条光路的光程差$L=2d$,由光的干涉条件可知：当 $L = k_1 \lambda_1$（$k_1$ 为整数）时，在视场$E$中心处干涉加强； 当$L=(k_2+\frac{1}{2})\lambda_2$（$k_2$为整数）时，在视场$E$ 中心处干涉减弱。\\
+			
+			视场$E$中心处$\lambda_1$和$\lambda_2$两种单色光干涉条纹相互叠加。若逐渐增大 $M_1$与$ M_2 $的间距 $d$，当$\lambda_1$的第$ k_1$级亮条纹和$\lambda_2$的第 $ k_2$级暗条纹相重合时，叠加而成的干涉条纹清晰度最低，此时干涉条纹出现第一次模糊，记录此时的光程差为 $L_A$. \\     %有
+			
+	%		\[ L_A=k_1\lambda_1=(k_2+\frac{1}{2})\lambda_2 \]
+			
+			若继续增大$M_1$与$ M_2 $的间距，使得视场$ E $中心处的光程差增加至$ L_B$， 此时$\lambda_1$的第$(k_1+n)$级亮条纹和$\lambda_2$的第$(k_2+n)$级亮条纹相重合，叠加而成的干涉条纹亮度最高，此时干涉条纹恢复清晰。\\
+			
+			继续增大$M_1$与$M_2$的间距， 使得视场 $E$ 中心处的光程差增加至 $L_C$， 此时 $\lambda_1$的第$（k_1+m）$ 级亮条纹和$\lambda_2$ 的第$ (k_2 + m - 1) $级暗条纹相重合时，叠加而成的干涉条纹清晰度再次出现最低，此时干涉条纹出现第二次模糊，记录此时的光程差为 $L_C$ .\\
+			
+			设干涉条纹出现一次模糊→清晰→模糊的变化时， 反射镜$ M_1 $的移动距离为$\Delta d$，则$A $处和$ C $处前后的光程差变化为$\Delta L_{AC}=L_C-L_A=2\Delta d=m\lambda_1=(m-1)\lambda_2$，则$\Delta \lambda=\lambda_2-\lambda_1=\lambda_2/m$，$m=2\Delta d/\lambda_1$，得到最后结果为：
+			\[ \Delta \lambda\equiv\lambda_2-\lambda_1=\frac{\lambda_1\lambda_2}{2\Delta d}=\frac{\bar{\lambda}^2}{2\Delta d} 
+			\]
+			记录下干涉条纹出现一次“模糊→清晰→模糊” 的变化时， 反射镜$ M_1 $移动的距离$\Delta d$， 结合钠双黄线的平均波长 ，即可利用上式求得钠双黄线的波长差。\\
+			
+			\begin{figure}[htbp]
+				\centering
+				\includegraphics[width=0.5\textwidth]{graph1.png}
+				\caption{迈克尔逊干涉仪光路图}
+				\label{fig:fig1}
+			\end{figure}
+			
+			
+		\item \textbf{白光干涉的调节，并测定透明薄片的厚度 $t$ 或者折射率 $n$}
+		
+%			在迈克尔逊干涉实验中，先采用激光光源（安装上扩束镜），调节出定域等倾干涉圆环。再调节可移动反射镜$ M_2 $的预置测微头，减小两干涉臂的光程差$ L$（此过程中干涉圆环不断内缩，在观察屏中心$E$处不断“消失”），直至观察屏上只剩下几个较粗的干涉圆环（或圆环几乎消失）。这时候意味着两干涉臂的光程差$L$近似等于零。这时候撤掉扩束镜， 换上扩散的汞灯光源(毛玻璃)，把观察屏翻到背后有玻璃的一面，然后微调可调反射镜 $M_2$ 背面的三个螺钉（调节$ M_2 $的倾斜度），此时应能在玻璃镜（视场）中观察到域等倾干涉圆环。再调节可移动反射镜 $M_2$ 的预置测微头，减小两干涉臂的光程差$L$（此过程中干涉圆环不断内缩，在观察屏中心$E$ 处不断“消失”），直至观察屏上只剩下非常粗大的干涉圆环。换上扩散的白光光源（本实验中采用溴钨灯加毛玻璃代替）， 微调$ M_1$ 精密测微头， 此时应能在玻璃镜（视场） 中观察到彩色的条纹，此即为“白光等厚干涉条纹”。 在视场中心处的彩色条纹之间还可观察到一条全黑的条纹，称为“中心暗纹”。\\
+%			
+%			然后在反射镜 $M_1$ 与分束镜 $P_1$之间放上折射率为 $n$，厚度为 $t$ 的透明薄片，且尽量使薄片与$ M_1 $镜平行，则此时两干涉臂的光程差要比原来增大
+%			\[ 
+%			\Delta L=2t(n-1) 
+%			\]
+%			放上透明薄片后，透过观察屏玻璃观察透明薄片处，可以看到视场中的白光干涉彩色条纹消失。此时如果将反射镜$ M_1 $镜向前朝分束镜 $P_1$方向移动一段距离$\Delta d$， 使得$\Delta d = \Delta L /2$，则白光彩色干涉条纹重新出现。此时有
+%			\[ 
+%			\Delta d=t(n-1) 
+%			\]
+%			测出$ M_1 $镜的移动量$\Delta d$， 若已知透明薄片的厚度$ t$， 则可由上式可求出透明薄片的折射率$n$；反之，若已知透明薄片的折射率$n$，可求出透明薄片的厚度$t$。
+		
+			迈克尔逊干涉实验的变形实验中，首先使用激光光源和扩束镜调节出定域等倾干涉圆环，表示两干涉臂的光程差接近零。接着，换上扩散的汞灯光源，在观察屏翻到背后有玻璃的一面，微调可调反射镜 $M_2$ 的倾斜度，调节干涉条纹直至只剩下非常粗大的干涉圆环。然后，换上扩散的白光光源，微调$ M_1$ 的精密测微头，在玻璃镜（视场）中观察到彩色的条纹，称为“白光等厚干涉条纹”。接着，在反射镜 $M_1$ 与分束镜 $P_1$ 之间放上折射率为 $n$，厚度为 $t$ 的透明薄片，两干涉臂的光程差增大为 $\Delta L=2t(n-1)$，透过观察屏玻璃观察透明薄片处，可以看到视场中的白光干涉彩色条纹消失。最后，将反射镜$ M_1 $向前朝分束镜 $P_1$ 方向移动一段距离$\Delta d$，使得$\Delta d = \Delta L /2$，此时白光彩色干涉条纹重新出现。通过测量$ M_1 $镜的移动量$\Delta d$，可以根据$\Delta d=t(n-1)$计算出透明薄片的折射率$n$或厚度$t$。
+			
+	\end{enumerate}
+
+	
+
+
+
+
+\subsection{实验前思考题}
+
+	\begin{question}
+		如何测量透明溶液的折射率？请自行就相关实验原理进行调研，并设计合理试验方案。
+	\end{question}
+		可以使用迈克尔逊干涉仪测量透明溶液的折射率，方法简述如下：
+		
+		\begin{enumerate}
+			\item 准备设备：设置迈克尔逊干涉仪，确保所有光学元件清洁并正确对准。
+			\item 校准干涉仪：在不放入样品的情况下，调整干涉仪直至观察到清晰的干涉条纹。
+			\item 放置样品：将装有透明溶液的比色皿放置在干涉仪的一臂中，确保比色皿平行于光束。
+			\item 观察条纹变化：开启干涉仪，观察由于溶液折射率不同而引起的干涉条纹移动。
+			\item 数据记录：记录条纹移动的数量，这与溶液的光程差有关。
+			\item 计算折射率：使用公式 $n=1+\frac{\lambda}{2d}$
+			
+			   其中$n$是折射率，$\lambda$是光的波长，$ d$是比色皿的厚度，$m$是条纹移动的数量。
+		\end{enumerate}
+		
+		测量折射率的方法还有多种，除了迈克尔逊干涉仪法外，还包括：
+		
+		\begin{itemize}
+			\item 几何光学方法：利用斯涅尔定律，可以通过最小偏向角法或极限角法来测量折射率。这些方法通常需要一个透明的三棱镜样品。
+			\item 波动光学方法：通过光程差和干涉现象来测量折射率，例如使用马赫干涉仪或法布里珀罗干涉仪
+			\item 分光光度法：这种方法通过测量样品的反射率和透射率来计算折射率。它可以进一步细分为菲涅耳公式法、布儒斯特定律法和接近垂直入射时的反射法。
+			\item 椭圆偏振测量法：这种方法通过测量反射光的振幅比和相移来直接测量折射率，需要针对每种材料的特定光学模型。
+			\item ATR法：采用全反射原理，利用样品与棱镜的接触面发生反射，反射角与入射角之差与样品折射率之间存在固定的关系，从而计算出样品的折射率。
+			\item 位移法：通过比较两种介质中一个光点的位置变化，计算出样品的折射率。具体方法包括折射平台法、折射浸渍法等。
+		\end{itemize}
+		每种方法都有其适用的情况和限制，选择合适的方法取决于样品的性质和实验条件。
+		
+
+	\begin{question}
+		如何测量汞灯光源的相干长度？请自行就相关实验原理进行调研，并设计具体实验方案。
+	\end{question}
+		
+		可以使用迈克尔逊干涉仪测量汞灯光源的相干长度，具体实验步骤如下：
+		\begin{enumerate}
+			\item 调整激光器：打开He-Ne激光器，调出清晰的等倾非定域干涉条纹。调节动镜M2的镜面调节螺丝，使观察屏上出现清晰的干涉条纹。
+			\item 汞灯光源的安装：撤掉激光器，换上低压汞灯光源。在汞灯光源与平面反射镜间放置毛玻璃，观察是否有直线条纹出现。
+			\item 观察干涉条纹：从E点位置用单眼观察M2的位置，检查是否有黑白相间的直线条纹。如果没有出现，则适当调节M2的镜面调节螺丝，直至视野中出现直线条纹。
+			\item 测量相干长度：向同一方向转动M2的微调鼓轮，使视野中的彩色直线条纹变弯曲。在条纹刚刚变弯曲的时刻，记下M2微调鼓轮的初始读数d1和彩色直线条纹刚刚变弯曲时读数d2。相干长度即为$d=\frac{1}{2}(d_1-d_2)$
+		\end{enumerate}
+		
+
+\clearpage
+\begin{table}
+	\renewcommand\arraystretch{1.7}
+	\centering
+	\begin{tabularx}{\textwidth}{|X|X|X|X|}
+	\hline
+	专业：& 物理学 &年级：& 2022级 \\
+	\hline
+	姓名：& 戴鹏辉 & 学号：& 22344016 \\
+	\hline
+	室温：& 26℃ & 实验地点： & A505 \\
+	\hline
+	学生签名：& & 评分： &\\
+	\hline
+	实验时间：& 2024/03/14 & 教师签名：&\\
+	\hline
+	\end{tabularx}
+\end{table}
+
+\section{CB1+ \quad 迈克尔逊干涉及应用（白光干涉） \quad\heiti 实验记录}
+\subsection{实验内容和步骤}
+
+	\subsubsection{实验一 测钠双黄线的波长差}
+	
+		\begin{enumerate}
+			\item 首先调节迈克尔逊干涉仪， 使产生定域等倾干涉条纹：
+			
+			\begin{enumerate}
+				\item 安装并打开 $He-Ne$ 激光器（注意不要直射眼睛）， 但先不安装扩束镜， 使激光束从分束镜$ P_1$的中心附近入射；
+				
+				\item 调节可调反射镜 $M_2$ 背面的三个螺钉，使得 $M_1$ 和 $M_2$ 反射的光点的最亮处在观察屏 $E$ 上重合；
+				
+				
+				\item 装上扩束镜（以获得点光源），此时应能在观察屏上看到等倾干涉条纹（如观察不到，则可微调固定激光器的螺钉，使得光束能顺利通过扩束镜）。
+			\end{enumerate}
+			
+			
+		\end{enumerate}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+	\subsubsection{实验二 白光干涉的调节，并测定透明薄片的厚度$t$或者折射率 $n$}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+
+\subsection{实验过程中遇到的问题记录}
+
+\begin{enumerate}
+	\item 	
+	
+\end{enumerate}
+	
+
+\clearpage
+\begin{table}
+	\renewcommand\arraystretch{1.7}
+	\begin{tabularx}{\textwidth}{|X|X|X|X|}
+	\hline
+	专业：& 物理学 &年级：& 2022级\\
+	\hline
+	姓名： & 戴鹏辉 & 学号：& 22344016\\
+	\hline
+    日期：& 2024/xx/xx & 评分： &\\
+	\hline
+	\end{tabularx}
+\end{table}
+
+\section{CB1+ \quad 迈克尔逊干涉及应用（白光干涉） \quad\heiti 分析与讨论}
+
+\subsection{实验数据分析}
+
+	\subsubsection{实验一 测量光栅常数}
+		由表1中的数据，可计算得到各级衍射条纹的衍射角，如下表所示
+		
+		\begin{center}
+			\begin{tabular}{|c|c|c|c|}
+				\hline
+				$\varphi_{+1}$ & $\varphi_{+2}$ & $\varphi_{-1}$ & $\varphi_{-2}$ \\
+				\hline
+				10°09′ & 20°37′ & 10°10′ & 20°47′ \\
+				\hline
+			\end{tabular}
+		\end{center}
+
+		
+		则可由正负级衍射角计算平均值，并根据光栅衍射公式$k\lambda=d\sin{\varphi}$，计算光栅常数，其中钠灯的谱线已知，取$\lambda=589.4nm$，则计算结果如下表所示
+		
+		\begin{center}
+			\begin{tabular}{|c|c|c|}
+				\hline
+				$\varphi_1$ & $\varphi_2$ &  \\
+				\hline
+				10°09′ & 20°42′ &  \\
+				\hline
+				$d_1$ & $d_2$ & $\overline{d}$ \\
+				\hline
+				$3.344\times{10}^{-6}m$ & $3.334\times{10}^{-6}m$ & $3.339\times{10}^{-6}m$ \\
+				\hline
+			\end{tabular}
+		\end{center}
+
+		下面计算不确定度：
+		
+		\begin{enumerate}
+			\item  角度的重复测量引起的标准不确定度分量$u_1$,
+					\[ u_1=\sqrt{\sum{(\left|\frac{\partial d}{\partial\varphi_i}\right|\sigma_i)}^2}=4.55\times{10}^{-8}m \]
+					
+			\item  仪器的示值误差引起的标准不确定度分量$u_2$，由分光计游标最小分度值1’，按照均匀分布考虑
+					\[ u_2=\sqrt{\sum{(\left|\frac{\partial d}{\partial\varphi_i}\right|\sigma_i)}^2}=1.99\times{10}^{-7}m \]
+			
+			\item  合成不确定度
+					\[ u_c=\sqrt{\sum{(u_i)}^2}=2.04\times{10}^{-7}m \]
+			
+			\item 展伸不确定度\\
+					考虑正态分布，取置信概率为95\%，查表得包含因子$k=1.96$
+					
+					则最终测量结果表示为 $ d=\bar{d}\pm ku_c=(3.34\pm0.40)\times{10}^{-6}m$
+					
+					
+		\end{enumerate}
+		
+		分析误差来源
+			\begin{enumerate}
+				\item 可能是由于光栅本身的刻线不均匀，或者刻线与仪器转轴不平行，导致不同级次之间的测量数据计算所得结果之间有较大误差；这是仪器本身的系统误差，无法消除，只能通过更换质量更好的光栅来避免。
+				
+				\item 平行光管进光狭缝的宽度可能过宽，使得入射谱线的宽度也变宽，则会降低谱线的分辨率和对比度，使得测量衍射角时不准确，从而影响计算结果。
+			\end{enumerate}
+		
+		
+		\subsubsection{实验二 测定未知光波波长及角色散率D}
+			
+			根据表2数据，重复实验一中的处理操作，计算正负级衍射角，计算平均值，并根据光栅衍射公式$k\lambda=d\sin{\varphi}$，计算不同衍射谱线对应光波波长，式中光栅常数取实验一中的计算结果 $d=3.34\times{10}^{-6}m$ ,则计算结果如下表所示
+			
+			\begin{center}
+				\begin{tabular}{|c|c|c|c|}
+					\hline
+					\textbf{颜色} & \textbf{蓝色(b)} & \textbf{绿色(g)} & \textbf{黄色(y)} \\
+					\hline
+					$\varphi_{+1}$ & 07°29′ & 09°22′ & 09°58′ \\
+					$\varphi_{+2}$ & 15°07′ & 19°02′ & 20°11′ \\
+					$\varphi_{-1}$ & 07°32′ & 09°29′ & 10°00′ \\
+					$\varphi_{-2}$ & 15°12′ & 19°10′ & 20°23′ \\
+					\hline
+					&  &  &  \\
+					\hline
+					$\varphi_1$ & 07°30′ & 09°25′ & 09°59′ \\
+					$\varphi_2$ & 15°10′ & 19°06′ & 20°17′ \\
+					\hline
+					&  &  &  \\
+					\hline
+					$\lambda_1$ & 435.83nm & 546.30nm & 578.86nm \\
+					$\lambda_2$ & 436.79nm & 546.29nm & 578.75nm \\
+					$\overline{\lambda}$ & 436.31nm & 546.30nm & 578.80nm \\
+					\hline
+				\end{tabular}
+			\end{center}
+
+			下面计算不确定度：
+				
+			\begin{enumerate}
+					\item 	角度的重复测量引起的标准不确定度分量$u_1$,
+							\[ u_{b1}=\sqrt{\sum\left(\left|\frac{\partial\lambda}{\partial\varphi_i}\right|\sigma_i\right)^2}=0.402nm \]
+							\[ u_{g1}=\sqrt{\sum\left(\left|\frac{\partial\lambda}{\partial\varphi_i}\right|\sigma_i\right)^2}=1.14nm \]
+							\[ u_{y1}=\sqrt{\sum{(\left|\frac{\partial\lambda}{\partial\varphi_i}\right|\sigma_i)}^2}=1.36nm \]
+					
+					\item 仪器的示值误差引起的标准不确定度分量$u_2$，\\
+							由分光计游标最小分度值1’，按照均匀分布考虑
+							\[ u_{b2}=\sqrt{\sum{(\left|\frac{\partial\lambda}{\partial\varphi_i}\right|\sigma_i)}^2}=0.10nm \]
+							\[ u_{g2}=\sqrt{\sum\left(\left|\frac{\partial\lambda}{\partial\varphi_i}\right|\sigma_i\right)^2}=0.13nm \]
+							\[ u_{y2}=\sqrt{\sum{(\left|\frac{\partial\lambda}{\partial\varphi_i}\right|\sigma_i)}^2}=0.14nm \]
+					
+					\item 合成不确定度
+							\[ u_{cb}=\sqrt{\sum{(u_i)}^2}=0.41nm  \quad u_{cg}=\sqrt{\sum\left(u_i\right)^2}=1.15nm  \quad u_{cy}=\sqrt{\sum{(u_i)}^2}=1.36nm \]
+					
+					\item 展伸不确定度
+							考虑正态分布，取置信概率为95\%，查表得包含因子$k=1.96$ \\
+							则最终测量结果表示为
+							\[ \lambda_b=(436.31\pm0.41)nm  \quad \lambda_g=\left(546.30\pm1.15\right)nm \quad  \lambda_y=(578.80\pm1.36)nm \]
+					
+				\end{enumerate}
+		
+			将各谱线波长计算值与标准值比较（预习报告中所查得的数据），计算各谱线波长的相对误差(计算黄光谱线相对误差时，参考值取两条黄色谱线的平均波长)，得到
+			\[ \eta_b=\left|\frac{435.8-436.31}{435.8}\right|\times100\%=0.117\% \]
+			\[ \eta_g=\left|\frac{546.1-546.30}{546.1}\right|\times100\%=0.037\% \]
+			\[ \eta_y=\left|\frac{578.05-578.80}{578.05}\right|\times100\%=0.130\% \]
+			
+			下面计算角色散率，根据角色散率公式$D=\frac{d\theta}{d\lambda}=\frac{k}{d\cos{\theta}}$，由上表数据计算得
+			
+				\begin{center}
+					\begin{tabular}{|c|c|c|c|}
+						\hline
+						\textbf{颜色} & \textbf{蓝色} & \textbf{绿色} & \textbf{黄色} \\
+						\hline
+						D1 & $2.98\times 10^{5} m^{-1}$ & $2.99\times 10^{5} m^{-1}$ & $3.00\times 10^{5} m^{-1}$ \\
+						D2 & $6.11\times 10^{5} m^{-1}$ & $6.24\times 10^{5} m^{-1}$ & $6.29\times 10^{5} m^{-1}$ \\
+						\hline
+					\end{tabular}
+				\end{center}
+
+
+			
+			下面计算角色散率的不确定度，重复上面的操作，最终包含不确定度结果如下表所示
+			
+			\begin{center}
+				\begin{tabular}{|c|c|c|c|}
+					\hline
+					\textbf{颜色} & \textbf{蓝色} & \textbf{绿色} & \textbf{黄色} \\
+					\hline
+					D1 & $2.98 \pm 0.002 \times 10^{5} m^{-1}$ & $2.99 \pm 0.03 \times 10^{5} m^{-1}$ & $3.00 \pm 0.01 \times 10^{5} m^{-1}$ \\
+					D2 & $6.11 \pm 0.07 \times 10^{5} m^{-1}$ & $6.24 \pm 0.004 \times 10^{5} m^{-1}$ & $6.29 \pm 0.10 \times 10^{5} m^{-1}$ \\
+					\hline
+				\end{tabular}
+			\end{center}
+			
+			分析误差来源：
+			
+			\begin{enumerate}
+				\item 			观察数据可发现，在测量2级谱线时，正负级衍射角的差偏大，个别数据甚至超过了10’（由于超过10’的数据是最后一组测量数据，故没有及时发现），说明光栅并未完全与平行光管光轴垂直，存在一个小角度偏差，引入了一定的系统误差。
+				\item 			平行光管进光狭缝的宽度可能过宽，使得入射谱线的宽度也变宽，则会降低谱线的分辨率和对比度，使得测量衍射角时不准确，从而影响计算结果。
+			\end{enumerate}
+			
+			
+\subsection{实验后思考题}
+
+
+
+\begin{question}
+	检索文献，列举三种测量光波波长的方法，给出参考文献列表。%\lipsum[20]
+\end{question}
+	
+	通过查阅资料，我找到了以下几种可以测量光波波长的方法：
+	
+\begin{enumerate}
+	
+	\item 	双棱镜干涉法，它利用双棱镜将单色光分成两束相干光，然后在屏幕上形成干涉条纹。通过测量条纹间距和双棱镜的夹角，可以计算出光波的波长。[1][2]
+	\item 	傅里叶红外光谱仪法，它利用傅里叶变换将单色光的干涉信号转换为频率域的信号，然后通过测量信号的频率，可以计算出光波的波长。[3][4]
+	\item 	激光多普勒干涉法，该方法利用激光束与一个高速旋转的多面棱镜发生多普勒效应，产生频率变化的干涉信号。通过测量干涉信号的频率差，即可求得激光波长。[5]
+\end{enumerate}
+	
+参考文献列表：
+
+%[1]	薛任翔. 光波波长测定方法研究[J]. 现代商贸工业, 2019, 10: 84-85. \\
+%[2]	尹真, 邹淑娟, 陈娟, 权慧. 双棱镜干涉实验的深入研究[J]. 科技广场, 2014, 1: 29-34. \\
+%[3]	李春明, 刘承师, 张俊峰. 测量激光波长的方法研究[J]. 激光与红外, 2007, 37(12): 1408-1410. \\
+%[4]	任海萍, 王建字, 李佳戈, 等. 一种使用傅里叶红外光谱仪进行波长测量的新方法[J]. 中国药事, 2010, 24(8): 807-809. \\
+%[5]	伍洲, 张文喜, 相里斌, 李杨, 孔新新. 基于多光束混合外差干涉的相位增强技术研究[J]. 物理学报, 2018, 67(2): 020601.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=9.41cm]{D:/大学各种资料/2023大二/2023大二上/基础物理实验I/5.光栅常数及光波波长的测量/SYSU-SPA-Labreport-Template-main/images/table.jpg}
+	\caption{原始实验数据}
+\end{figure}
+	
+\clearpage
+% ---------------------------------------------------------------------
+%   参考文献
+%   注：使用参考文献时应按照xelatex->bibtex->xelatex->xelatex顺序进行编译
+\phantomsection
+\addcontentsline{toc}{section}{参考文献}
+\bibliographystyle{unsrt}
+\bibliography{myref}
+
+\clearpage
+\appendix
+\appendixpage
+\addappheadtotoc
+\subsection{代码记录}
+\begin{lstlisting}[style=pythonstyle,caption=代码记录示例]
+	import matplotlib.pyplot as plt
+	import numpy as np
+	
+	# Data for plotting
+	t = np.arange(0.0, 2.0, 0.01)
+	s = 1 + np.sin(2 * np.pi * t)
+	
+	fig, ax = plt.subplots()
+	ax.plot(t, s)
+	
+	ax.set(xlabel='time (s)', ylabel='voltage (mV)',
+		   title='About as simple as it gets, folks')
+	ax.grid()
+	
+	fig.savefig("test.png")
+	plt.show()
+\end{lstlisting}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width = 0.6\textwidth]{example1.png}
+    \caption{Test Figure}
+\end{figure}
+
+\clearpage
+\subsection{常用命令展示}
+这部分将展示其他常用命令。
+
+\begin{tbox}{颜色设置}
+\begin{itemize}
+	\item  \textcolor{Red}{赤}\textcolor{Orange}{橙}\textcolor{Yellow}{黄}\textcolor{Green}{绿}\textcolor{Emerald}{青}\textcolor{Blue}{蓝}\textcolor{Purple}{紫}
+	\item  谁持彩练当空舞
+\end{itemize}
+\end{tbox}
+
+\begin{tbox}{字号设置}
+\begin{enumerate}
+	\item {\LARGE 江晚正愁余}
+	\item {\Large 江晚正愁余}
+	\item {\large 江晚正愁余}
+	\item {\normalsize 江晚正愁余}
+	\item {\small 江晚正愁余}
+	\item {\footnotesize 江晚正愁余}
+	\item {\scriptsize 江晚正愁余}
+\end{enumerate}
+\end{tbox}
+
+\begin{tbox}{字体设置（中文）}
+\begin{enumerate}
+	\item 宋体：{\songti 山有扶苏，隰有荷华}
+	\item 仿宋：{\fangsong 山有扶苏，隰有荷华}
+	\item 黑体：{\heiti 山有扶苏，隰有荷华}
+	\item 楷书：{\kaishu 山有扶苏，隰有荷华}
+\end{enumerate}
+\end{tbox}
+
+\begin{tbox}{Set font(English)}
+\begin{enumerate}
+	\item roman:\quad{\rmfamily Hello world!}
+	\item sans-serif:\quad{\sffamily Hello world!}
+	\item typewriter:\quad{\ttfamily Hello world!}
+\end{enumerate}
+\end{tbox}
+
+\begin{tbox}{公式}
+	无编号公式
+    \begin{equation*}
+        J(\theta) = \mathbb{E}_{\pi_\theta}[G_t] = \sum_{s\in\mathcal{S}} d^\pi (s)V^\pi(s)=\sum_{s\in\mathcal{S}} d^\pi(s)\sum_{a\in\mathcal{A}}\pi_\theta(a|s)Q^\pi(s,a)
+    \end{equation*}
+$$ J(\theta) = \mathbb{E}_{\pi_\theta}[G_t] = \sum_{s\in\mathcal{S}} d^\pi (s)V^\pi(s)=\sum_{s\in\mathcal{S}} d^\pi(s)\sum_{a\in\mathcal{A}}\pi_\theta(a|s)Q^\pi(s,a) $$
+    有编号公式
+    \begin{equation}
+        J(\theta) = \mathbb{E}_{\pi_\theta}[G_t] = \sum_{s\in\mathcal{S}} d^\pi (s)V^\pi(s)=\sum_{s\in\mathcal{S}} d^\pi(s)\sum_{a\in\mathcal{A}}\pi_\theta(a|s)Q^\pi(s,a)
+    \end{equation}
+    \begin{equation}
+        J(\theta) = \mathbb{E}_{\pi_\theta}[G_t] = \sum_{s\in\mathcal{S}} d^\pi (s)V^\pi(s)=\sum_{s\in\mathcal{S}} d^\pi(s)\sum_{a\in\mathcal{A}}\pi_\theta(a|s)Q^\pi(s,a)
+    \end{equation}
+	波尔文积分
+    \[
+    \begin{cases}
+        \vspace{0.2cm}
+        \displaystyle{\int_{0}^{\infty} \frac{\sin(x)}{x}\,dx = \frac{\pi}{2}}\\
+        \vspace{0.2cm}
+        \displaystyle{\int_{0}^{\infty} \frac{\sin(x)}{x} \frac{\sin(x/3)}{x/3}\,dx = \frac{\pi}{2}} \\
+        \vspace{0.2cm}\cdot\cdot\cdot\\
+        \vspace{0.2cm}
+        \displaystyle{\int_{0}^{\infty} \frac{\sin(x)}{x} \frac{\sin(x/3)}{x/3} \cdot\cdot\cdot \frac{\sin(x/13)}{x/13}\,dx = \frac{\pi}{2}}\\
+        \displaystyle{\int_{0}^{\infty} \frac{\sin(x)}{x} \frac{\sin(x/3)}{x/3} \cdot\cdot\cdot \frac{\sin(x/15)}{x/15}\,dx = \frac{467807924713440738696537864469}{935615849440640907310521750000}\pi}
+    \end{cases}  
+    \]
+	多行对齐公式
+\begin{align*}
+    \frac{\partial}{\partial \theta_k}J(\theta) 
+        &= \frac{\partial}{\partial \theta_k}\Bigg[\frac{1}{m}\sum_{k=1}^m log(1+e^{-y^{(i)}\theta^Tx^{(i)}})\Bigg] \\
+        &= \frac{1}{m}\sum_{k=1}^m \frac{1}{1+e^{-y^{(i)}\theta^Tx^{(i)}}}y^{(i)}x_k^{(i)} \\
+        &= -\frac{1}{m}\sum_{k=1}^m h_\theta(-y^{(i)}x^{(i)})y^{(i)}x_k^{(i)}        
+\end{align*}
+\end{tbox}
+
+\begin{tbox}{引用}
+	对公式的引用，如\cref{equ:test}
+	\begin{equation}
+        J(\theta) = \mathbb{E}_{\pi_\theta}[G_t] = \sum_{s\in\mathcal{S}} d^\pi (s)V^\pi(s)=\sum_{s\in\mathcal{S}} d^\pi(s)\sum_{a\in\mathcal{A}}\pi_\theta(a|s)Q^\pi(s,a)
+		\label{equ:test}
+    \end{equation}
+	对图像的引用，如\cref{fig:test}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.3\textwidth]{example.png}
+		\caption{测试图片}
+		\label{fig:test}
+	\end{figure}
+	对表格的引用，如\cref{tab:test}
+	\begin{table}[H]
+		\renewcommand\arraystretch{1.5}
+		\caption{一个空表格}
+		\begin{tabularx}{\textwidth}{|p{0.15\textwidth}|X|X|X|X|}
+		\hline
+		 &  &  &  &  \\    
+		\hline
+		 &  &  & &  \\    
+		\hline
+		\end{tabularx}
+		\label{tab:test}
+	\end{table}
+\end{tbox}
+
+\begin{tbox}{表格}
+	tabular可以自己更改宽度
+	\begin{table}[H]
+		\renewcommand\arraystretch{1.7}
+		\centering
+		\caption{一个空表格}
+		\begin{tabular}{|p{0.15\textwidth}|p{0.15\textwidth}|p{0.15\textwidth}|p{0.15\textwidth}|}
+		\hline
+		&   &  &  \\
+		\hline
+		 &   &  &  \\
+		\hline    
+		\end{tabular}
+	\end{table}
+	tabularx可以自适应宽度
+	\begin{table}[H]
+		\renewcommand\arraystretch{1.7}
+		\centering
+		\caption{一个空表格}
+		\begin{tabularx}{\textwidth}{|p{0.2\textwidth}|X|X|X|X|X|X|}
+			\hline
+			& &  &  &  &  &  \\
+			\hline
+			 & &  &  &  &  &  \\
+			\hline
+		\end{tabularx}
+	\end{table}
+\end{tbox}
+\end{document}
