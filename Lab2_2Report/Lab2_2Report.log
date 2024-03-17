@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.9.8)  17 MAR 2024 21:06
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.9.8)  17 MAR 2024 23:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1393,21 +1393,25 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\heiti' on input line 235.
 
+File: ./images//graph2.jpg Graphic file (type bmp)
+<./images//graph2.jpg>
+File: ./images//graph3.jpg Graphic file (type bmp)
+<./images//graph3.jpg>
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 271.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 271.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 271.
+(hyperref)                removing `math shift' on input line 288.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 271.
+(hyperref)                removing `math shift' on input line 288.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 288.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 288.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1429,40 +1433,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [8]
+File: ./images//graph4.jpg Graphic file (type bmp)
+<./images//graph4.jpg>
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                \hskip 10.95pt
-(hyperref)                replaced by space on input line 315.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                \hskip 10.95pt
-(hyperref)                replaced by space on input line 315.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\heiti' on input line 315.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 325.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 325.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 325.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 325.
-
-File: D:/大学各种资料/2023大二/2023大二上/基础物理实验I/5.光栅常数及光波波长的测量/SYSU-SPA-Labreport-Templa
-te-main/images/table.jpg Graphic file (type bmp)
-<D:/大学各种资料/2023大二/2023大二上/基础物理实验I/5.光栅常数及光波波长的测量/SYSU-SPA-Labreport-Template-ma
-in/images/table.jpg>
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1471,9 +1444,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[9
+[9]
+File: ./images//ExpriData.jpg Graphic file (type bmp)
+<./images//ExpriData.jpg>
 
-]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1482,11 +1456,39 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[10] (./Lab2_2Report.bbl
+[10]
 
-LaTeX Warning: Empty `thebibliography' environment on input line 3.
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                \hskip 10.95pt
+(hyperref)                replaced by space on input line 352.
 
-)
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                \hskip 10.95pt
+(hyperref)                replaced by space on input line 352.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\heiti' on input line 352.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 362.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 362.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 362.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 362.
+
+File: ./images//table.jpg Graphic file (type bmp)
+<./images//table.jpg>
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1498,36 +1500,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [11
 
 ]
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 375.
-
-Package fontspec Info: Could not resolve font "FangSong/BI" (it probably
-(fontspec)             doesn't exist).
-
-
-Package fontspec Info: Could not resolve font "FangSong/B" (it probably
-(fontspec)             doesn't exist).
-
-
-Package fontspec Info: Could not resolve font "FangSong/I" (it probably
-(fontspec)             doesn't exist).
-
-
-Package fontspec Info: Font family 'FangSong(0)' created for font 'FangSong'
-(fontspec)             with options [Script={CJK}].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->"FangSong/OT:script=hani;language=dflt;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-
-LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <10> not available
-(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 376.
-File: ./images//example1.png Graphic file (type bmp)
-<./images//example1.png>
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1536,84 +1508,20 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[12
-
-]
-
-LaTeX Font Warning: Font shape `TU/KaiTi(0)/b/n' undefined
-(Font)              using `TU/KaiTi(0)/m/n' instead on input line 403.
-
-
-Package fontspec Info: Could not resolve font "Microsoft YaHei Bold/I" (it
-(fontspec)             probably doesn't exist).
-
-
-Package fontspec Info: Could not resolve font "Microsoft YaHei/I" (it probably
-(fontspec)             doesn't exist).
-
-
-Package fontspec Info: Font family 'MicrosoftYaHei(0)' created for font
-(fontspec)             'Microsoft YaHei' with options
-(fontspec)             [Script={CJK},BoldFont={* Bold}].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Microsoft
-(fontspec)             YaHei/OT:script=hani;language=dflt;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"Microsoft YaHei
-(fontspec)             Bold/OT:script=hani;language=dflt;"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"Microsoft
-(fontspec)             YaHei/BI/OT:script=hani;language=dflt;"
-(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[13
-
-]
-File: ./images//example.png Graphic file (type bmp)
-<./images//example.png>
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[14]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[15] (./Lab2_2Report.aux)
+[12] (./Lab2_2Report.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `Lab2_2Report.out' has not changed.
-(rerunfilecheck)             Checksum: 4A16AE0F8AB37D724CF09DBE78F64C06;2925.
+(rerunfilecheck)             Checksum: 0AE2159E8DFD75DAA608B26DFA35C5CE;2547.
  ) 
 Here is how much of TeX's memory you used:
- 37812 strings out of 476683
- 825121 string characters out of 5807576
- 1946012 words of memory out of 5000000
- 57412 multiletter control sequences out of 15000+600000
- 519417 words of font info for 113 fonts, out of 8000000 for 9000
+ 37439 strings out of 476683
+ 815123 string characters out of 5807576
+ 1882012 words of memory out of 5000000
+ 57085 multiletter control sequences out of 15000+600000
+ 519201 words of font info for 86 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 105i,13n,107p,542b,1409s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 105i,12n,107p,542b,966s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Lab2_2Report.pdf (15 pages).
+Output written on Lab2_2Report.pdf (12 pages).

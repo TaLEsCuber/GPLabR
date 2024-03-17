@@ -240,7 +240,7 @@
 		\begin{enumerate}
 			\item 首先调节迈克尔逊干涉仪， 使产生定域等倾干涉条纹：
 			
-				\begin{enumerate}
+				\begin{enumerate}[label=\roman*.]
 					\item 安装并打开 $He-Ne$ 激光器（注意不要直射眼睛）， 但先不安装扩束镜， 使激光束从分束镜$ P_1$的中心附近入射；
 					
 					\item 调节可调反射镜 $M_2$ 背面的三个螺钉，使得 $M_1$ 和 $M_2$ 反射的光点的最亮处在观察屏 $E$ 上重合；
@@ -248,6 +248,13 @@
 					
 					\item 装上扩束镜（以获得点光源），此时应能在观察屏上看到等倾干涉条纹（如观察不到，则可微调固定激光器的螺钉，使得光束能顺利通过扩束镜）。
 				\end{enumerate}
+				
+				\begin{figure}[htbp]
+					\centering
+					\includegraphics[width=0.7\textwidth]{graph2.jpg}
+					\caption{激光光源的干涉图像}
+					\label{fig:graph2}
+				\end{figure}
 			
 			\item 然后调节可移动反射镜 $M_1$ 的精密测微头，减小两干涉臂的光程差 $L$,直至观察屏上只剩下几个较粗的干涉圆环或圆环几乎消失，这时候两干涉臂的光程几乎相等，光程差近似等于零。
 			
@@ -259,9 +266,19 @@
 
 		\end{enumerate}
 		
+		\begin{figure}[htbp]
+			\centering
+			\includegraphics[width=0.7\textwidth]{graph3.jpg}
+			\caption{钠黄光光源的干涉图像}
+			\label{fig:graph3}
+		\end{figure}
 		
+		实验测得的数据为：
+		\[ 
+		L_1=10.975mm \quad L_2=22.620mm \Longrightarrow \Delta\lambda=\frac{\bar{\lambda}^2}{2\Delta d}=\frac{(589.3\times10^{-9})^2}{2\times(\frac{(22.620-11.645)\times10^{-3}}{40})}mm=0.596nm
+		 \]
 		
-		
+
 		
 		
 		
@@ -282,21 +299,41 @@
 			\item 用螺旋测微计测量薄片的厚度$ t$， 结合$\Delta d$， 根据公式计算薄片的折射率 $n=1+\frac{\lambda}{2d}$。
 		\end{enumerate}
 		
+		\begin{figure}[htbp]
+			\centering
+			\includegraphics[width=0.7\textwidth]{graph4.jpg}
+			\caption{白光光源的干涉图像}
+			\label{fig:graph4}
+		\end{figure}
 		
-		
-		
-		
-		
+		测量数据如下：
+		\[ 
+		L_1=16.415mm \quad L_2=13.385mm
+		 \]
+		\[ 
+		d_0=0.910mm \quad d_1=1.085mm\Longrightarrow t=d_1-d_0=0.175mm
+		 \]
+		\[ 
+		n=\frac{\Delta d}{t}+1=\frac{16.415-13.385}{40\times0.175}+1=1.433
+		 \]
 		
 
 
 \subsection{实验过程中遇到的问题记录}
 
 \begin{enumerate}
-	\item 	
+	\item 注意精密测微头存在$\frac{1}{40}$的杠杆，计算距离时要注意换算。
+	
+	\item 在使用$He-Ne$激光光源，使其产生定域等倾干涉条纹，然后减小两干涉臂的光程差时，一定要保持干涉圆环的圆心始终保持在视场中心，这样能保证后面调节白光干涉时成功率更高。
 	
 \end{enumerate}
 	
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[width=0.7\textwidth]{ExpriData.jpg}
+		\caption{实验原始数据}
+		\label{fig:ExpriData}
+	\end{figure}
 
 \clearpage
 \begin{table}
@@ -332,199 +369,47 @@
 
 
 \begin{question}
-	检索文献，列举三种测量光波波长的方法，给出参考文献列表。%\lipsum[20]
+	当空气温度变化时，空气折射率也会发生变化，请思考如何测得空气折射率。
 \end{question}
 	
-	通过查阅资料，我找到了以下几种可以测量光波波长的方法：
+	迈克尔逊干涉仪也可以测量空气的折射率，下面是实验方案：
 	
-\begin{enumerate}
+	\begin{enumerate}
+		\item 实验装置准备：准备迈克尔逊干涉仪、He-Ne激光器、气室组件、光阑、气压表和毛玻璃等。
+		实验原理：迈克尔逊干涉仪利用两束相干光的干涉现象来测量光程差，从而计算出空气的折射率。当气室内的空气压强或温度变化时，会引起干涉条纹的移动，通过测量这些条纹的移动数量，可以计算出空气的折射率。
+		\item 实验步骤：
+		 	\begin{enumerate}[label=\roman*.]
+				\item 粗调光路：确保激光束水平并且垂直入射到迈克尔逊干涉仪的反射镜$M_1$和$M_2$上。
+				
+				\item 细调光路：使用小孔光栏H调节光束，使之通过小孔并垂直入射在反射镜上。
+				
+				\item 调整干涉条纹：通过调整拉簧螺丝，使干涉条纹变粗、变疏，便于测量。
+				
+				\item 测量折射率：将气室抽成真空，然后缓慢充气，观察接收屏上的干涉条纹移动。记录气室内压强由0变到大气压强时的条纹变化数，利用公式计算空气的折射率。
+			\end{enumerate}
+
+		\item 数据处理：收集多组数据，计算平均值，以提高实验的准确性。
+		 
+		\item 注意事项：
+			\begin{enumerate}[label=\roman*.]
+				\item 避免直接触摸光学表面。
+				\item 实验中应保持安静，避免走动影响实验结果。
+				\item 注意激光安全，避免直视激光束。
+			\end{enumerate}
+	\end{enumerate}
 	
-	\item 	双棱镜干涉法，它利用双棱镜将单色光分成两束相干光，然后在屏幕上形成干涉条纹。通过测量条纹间距和双棱镜的夹角，可以计算出光波的波长。[1][2]
-	\item 	傅里叶红外光谱仪法，它利用傅里叶变换将单色光的干涉信号转换为频率域的信号，然后通过测量信号的频率，可以计算出光波的波长。[3][4]
-	\item 	激光多普勒干涉法，该方法利用激光束与一个高速旋转的多面棱镜发生多普勒效应，产生频率变化的干涉信号。通过测量干涉信号的频率差，即可求得激光波长。[5]
-\end{enumerate}
+	通过上述实验方案，可测量出空气的折射率。我们可以用这样的方法，记录下不同温度下，空气的折射率，并由此绘制出关系曲线，分析空气折射率与温度的关系。
+
 	
-参考文献列表：
-
-%[1]	薛任翔. 光波波长测定方法研究[J]. 现代商贸工业, 2019, 10: 84-85. \\
-%[2]	尹真, 邹淑娟, 陈娟, 权慧. 双棱镜干涉实验的深入研究[J]. 科技广场, 2014, 1: 29-34. \\
-%[3]	李春明, 刘承师, 张俊峰. 测量激光波长的方法研究[J]. 激光与红外, 2007, 37(12): 1408-1410. \\
-%[4]	任海萍, 王建字, 李佳戈, 等. 一种使用傅里叶红外光谱仪进行波长测量的新方法[J]. 中国药事, 2010, 24(8): 807-809. \\
-%[5]	伍洲, 张文喜, 相里斌, 李杨, 孔新新. 基于多光束混合外差干涉的相位增强技术研究[J]. 物理学报, 2018, 67(2): 020601.
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=9.41cm]{D:/大学各种资料/2023大二/2023大二上/基础物理实验I/5.光栅常数及光波波长的测量/SYSU-SPA-Labreport-Template-main/images/table.jpg}
-	\caption{原始实验数据}
-\end{figure}
 	
-\clearpage
-% ---------------------------------------------------------------------
-%   参考文献
-%   注：使用参考文献时应按照xelatex->bibtex->xelatex->xelatex顺序进行编译
-\phantomsection
-\addcontentsline{toc}{section}{参考文献}
-\bibliographystyle{unsrt}
-\bibliography{myref}
-
-\clearpage
-\appendix
-\appendixpage
-\addappheadtotoc
-\subsection{代码记录}
-\begin{lstlisting}[style=pythonstyle,caption=代码记录示例]
-	import matplotlib.pyplot as plt
-	import numpy as np
 	
-	# Data for plotting
-	t = np.arange(0.0, 2.0, 0.01)
-	s = 1 + np.sin(2 * np.pi * t)
 	
-	fig, ax = plt.subplots()
-	ax.plot(t, s)
-	
-	ax.set(xlabel='time (s)', ylabel='voltage (mV)',
-		   title='About as simple as it gets, folks')
-	ax.grid()
-	
-	fig.savefig("test.png")
-	plt.show()
-\end{lstlisting}
-\begin{figure}[H]
-    \centering
-    \includegraphics[width = 0.6\textwidth]{example1.png}
-    \caption{Test Figure}
-\end{figure}
-
-\clearpage
-\subsection{常用命令展示}
-这部分将展示其他常用命令。
-
-\begin{tbox}{颜色设置}
-\begin{itemize}
-	\item  \textcolor{Red}{赤}\textcolor{Orange}{橙}\textcolor{Yellow}{黄}\textcolor{Green}{绿}\textcolor{Emerald}{青}\textcolor{Blue}{蓝}\textcolor{Purple}{紫}
-	\item  谁持彩练当空舞
-\end{itemize}
-\end{tbox}
-
-\begin{tbox}{字号设置}
-\begin{enumerate}
-	\item {\LARGE 江晚正愁余}
-	\item {\Large 江晚正愁余}
-	\item {\large 江晚正愁余}
-	\item {\normalsize 江晚正愁余}
-	\item {\small 江晚正愁余}
-	\item {\footnotesize 江晚正愁余}
-	\item {\scriptsize 江晚正愁余}
-\end{enumerate}
-\end{tbox}
-
-\begin{tbox}{字体设置（中文）}
-\begin{enumerate}
-	\item 宋体：{\songti 山有扶苏，隰有荷华}
-	\item 仿宋：{\fangsong 山有扶苏，隰有荷华}
-	\item 黑体：{\heiti 山有扶苏，隰有荷华}
-	\item 楷书：{\kaishu 山有扶苏，隰有荷华}
-\end{enumerate}
-\end{tbox}
-
-\begin{tbox}{Set font(English)}
-\begin{enumerate}
-	\item roman:\quad{\rmfamily Hello world!}
-	\item sans-serif:\quad{\sffamily Hello world!}
-	\item typewriter:\quad{\ttfamily Hello world!}
-\end{enumerate}
-\end{tbox}
-
-\begin{tbox}{公式}
-	无编号公式
-    \begin{equation*}
-        J(\theta) = \mathbb{E}_{\pi_\theta}[G_t] = \sum_{s\in\mathcal{S}} d^\pi (s)V^\pi(s)=\sum_{s\in\mathcal{S}} d^\pi(s)\sum_{a\in\mathcal{A}}\pi_\theta(a|s)Q^\pi(s,a)
-    \end{equation*}
-$$ J(\theta) = \mathbb{E}_{\pi_\theta}[G_t] = \sum_{s\in\mathcal{S}} d^\pi (s)V^\pi(s)=\sum_{s\in\mathcal{S}} d^\pi(s)\sum_{a\in\mathcal{A}}\pi_\theta(a|s)Q^\pi(s,a) $$
-    有编号公式
-    \begin{equation}
-        J(\theta) = \mathbb{E}_{\pi_\theta}[G_t] = \sum_{s\in\mathcal{S}} d^\pi (s)V^\pi(s)=\sum_{s\in\mathcal{S}} d^\pi(s)\sum_{a\in\mathcal{A}}\pi_\theta(a|s)Q^\pi(s,a)
-    \end{equation}
-    \begin{equation}
-        J(\theta) = \mathbb{E}_{\pi_\theta}[G_t] = \sum_{s\in\mathcal{S}} d^\pi (s)V^\pi(s)=\sum_{s\in\mathcal{S}} d^\pi(s)\sum_{a\in\mathcal{A}}\pi_\theta(a|s)Q^\pi(s,a)
-    \end{equation}
-	波尔文积分
-    \[
-    \begin{cases}
-        \vspace{0.2cm}
-        \displaystyle{\int_{0}^{\infty} \frac{\sin(x)}{x}\,dx = \frac{\pi}{2}}\\
-        \vspace{0.2cm}
-        \displaystyle{\int_{0}^{\infty} \frac{\sin(x)}{x} \frac{\sin(x/3)}{x/3}\,dx = \frac{\pi}{2}} \\
-        \vspace{0.2cm}\cdot\cdot\cdot\\
-        \vspace{0.2cm}
-        \displaystyle{\int_{0}^{\infty} \frac{\sin(x)}{x} \frac{\sin(x/3)}{x/3} \cdot\cdot\cdot \frac{\sin(x/13)}{x/13}\,dx = \frac{\pi}{2}}\\
-        \displaystyle{\int_{0}^{\infty} \frac{\sin(x)}{x} \frac{\sin(x/3)}{x/3} \cdot\cdot\cdot \frac{\sin(x/15)}{x/15}\,dx = \frac{467807924713440738696537864469}{935615849440640907310521750000}\pi}
-    \end{cases}  
-    \]
-	多行对齐公式
-\begin{align*}
-    \frac{\partial}{\partial \theta_k}J(\theta) 
-        &= \frac{\partial}{\partial \theta_k}\Bigg[\frac{1}{m}\sum_{k=1}^m log(1+e^{-y^{(i)}\theta^Tx^{(i)}})\Bigg] \\
-        &= \frac{1}{m}\sum_{k=1}^m \frac{1}{1+e^{-y^{(i)}\theta^Tx^{(i)}}}y^{(i)}x_k^{(i)} \\
-        &= -\frac{1}{m}\sum_{k=1}^m h_\theta(-y^{(i)}x^{(i)})y^{(i)}x_k^{(i)}        
-\end{align*}
-\end{tbox}
-
-\begin{tbox}{引用}
-	对公式的引用，如\cref{equ:test}
-	\begin{equation}
-        J(\theta) = \mathbb{E}_{\pi_\theta}[G_t] = \sum_{s\in\mathcal{S}} d^\pi (s)V^\pi(s)=\sum_{s\in\mathcal{S}} d^\pi(s)\sum_{a\in\mathcal{A}}\pi_\theta(a|s)Q^\pi(s,a)
-		\label{equ:test}
-    \end{equation}
-	对图像的引用，如\cref{fig:test}
-	\begin{figure}[H]
+	\begin{figure}[htbp]
 		\centering
-		\includegraphics[width=0.3\textwidth]{example.png}
-		\caption{测试图片}
-		\label{fig:test}
+		\includegraphics[width=0.7\textwidth]{table.jpg}
+		\caption{整理后实验桌照片}
+		\label{fig:table}
 	\end{figure}
-	对表格的引用，如\cref{tab:test}
-	\begin{table}[H]
-		\renewcommand\arraystretch{1.5}
-		\caption{一个空表格}
-		\begin{tabularx}{\textwidth}{|p{0.15\textwidth}|X|X|X|X|}
-		\hline
-		 &  &  &  &  \\    
-		\hline
-		 &  &  & &  \\    
-		\hline
-		\end{tabularx}
-		\label{tab:test}
-	\end{table}
-\end{tbox}
+	
 
-\begin{tbox}{表格}
-	tabular可以自己更改宽度
-	\begin{table}[H]
-		\renewcommand\arraystretch{1.7}
-		\centering
-		\caption{一个空表格}
-		\begin{tabular}{|p{0.15\textwidth}|p{0.15\textwidth}|p{0.15\textwidth}|p{0.15\textwidth}|}
-		\hline
-		&   &  &  \\
-		\hline
-		 &   &  &  \\
-		\hline    
-		\end{tabular}
-	\end{table}
-	tabularx可以自适应宽度
-	\begin{table}[H]
-		\renewcommand\arraystretch{1.7}
-		\centering
-		\caption{一个空表格}
-		\begin{tabularx}{\textwidth}{|p{0.2\textwidth}|X|X|X|X|X|X|}
-			\hline
-			& &  &  &  &  &  \\
-			\hline
-			 & &  &  &  &  &  \\
-			\hline
-		\end{tabularx}
-	\end{table}
-\end{tbox}
 \end{document}
