@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.9.8)  18 MAR 2024 13:42
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.9.8)  18 MAR 2024 23:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1213,23 +1213,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [4]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                \hskip 10.95pt
-(hyperref)                replaced by space on input line 189.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\heiti' on input line 189.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 195.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 195.
-
+Missing character: There is no λ (U+03BB) in font [lmroman10-regular]:mapping=tex-text;!
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1237,17 +1221,23 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[5
-
-]
+[5]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \hskip 10.95pt
-(hyperref)                replaced by space on input line 231.
+(hyperref)                replaced by space on input line 232.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\heiti' on input line 231.
+(hyperref)                removing `\heiti' on input line 232.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 238.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 238.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1258,6 +1248,25 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [6
 
+]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                \hskip 10.95pt
+(hyperref)                replaced by space on input line 274.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\heiti' on input line 274.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[7
+
 ] (./Lab2_3Report.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -1266,12 +1275,12 @@ Package rerunfilecheck Info: File `Lab2_3Report.out' has not changed.
 (rerunfilecheck)             Checksum: 40FBDEE6D81B89FA40CC1E0E8D2B8DD5;1989.
  ) 
 Here is how much of TeX's memory you used:
- 39394 strings out of 476683
- 859446 string characters out of 5807576
+ 39397 strings out of 476683
+ 859517 string characters out of 5807576
  1882012 words of memory out of 5000000
- 59042 multiletter control sequences out of 15000+600000
+ 59045 multiletter control sequences out of 15000+600000
  519201 words of font info for 86 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 105i,12n,107p,448b,966s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 105i,12n,107p,448b,964s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Lab2_3Report.pdf (6 pages).
+Output written on Lab2_3Report.pdf (7 pages).
