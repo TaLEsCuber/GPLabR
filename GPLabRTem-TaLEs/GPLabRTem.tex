@@ -11,6 +11,7 @@
 \input{Settings} % 导入模板的相关设置
 \usepackage{lipsum}
 \usepackage{enumitem}
+\usepackage{tabularray}  %绘制表格时可以更加方便添加框线
 \setlist[enumerate]{label=\textup{(\arabic*)}}
 
 
@@ -30,7 +31,7 @@
 	\hline
 	\multicolumn{2}{|c|}{预习报告}&\multicolumn{2}{|c|}{实验记录}&\multicolumn{2}{|c|}{分析讨论}&\multicolumn{2}{|c|}{总成绩}\\
 	\hline
-	& & & & & & & \\
+	\LARGE25 & & \LARGE30 & & \LARGE25 & & \LARGE80 & \\
 	\hline
 	\end{tabularx}
 \end{table}
@@ -44,7 +45,7 @@
 	\hline
 	姓名：& 戴鹏辉  & 学号： & 2344016 \\
 	\hline
-	实验时间：& 2024/XX/XX & 教师签名：& \\
+	日期：& 2024/XX/XX & 教师签名：& \\
 	\hline
 	\end{tabularx}
 \end{table}

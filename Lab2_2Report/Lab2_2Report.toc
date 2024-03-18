@@ -1,0 +1,16 @@
+\contentsline {section}{\numberline {1}CB1+ \hskip 1em\relax 迈克尔逊干涉及应用（白光干涉） \hskip 1em\relax \heiti 预习报告}{3}{section.1}%
+\contentsline {subsection}{\numberline {1.1}实验目的}{3}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}仪器用具}{3}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}原理概述}{3}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}实验前思考题}{5}{subsection.1.4}%
+\contentsline {section}{\numberline {2}CB1+ \hskip 1em\relax 迈克尔逊干涉及应用（白光干涉） \hskip 1em\relax \heiti 实验记录}{7}{section.2}%
+\contentsline {subsection}{\numberline {2.1}实验内容和步骤}{7}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}实验一 测钠双黄线的波长差}{7}{subsubsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.2}实验二 白光干涉的调节，并测定透明薄片的厚度$t$或者折射率 $n$}{9}{subsubsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.2}实验过程中遇到的问题记录}{10}{subsection.2.2}%
+\contentsline {section}{\numberline {3}CB1+ \hskip 1em\relax 迈克尔逊干涉及应用（白光干涉） \hskip 1em\relax \heiti 分析与讨论}{11}{section.3}%
+\contentsline {subsection}{\numberline {3.1}实验数据分析}{11}{subsection.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}实验一 测钠双黄线的波长差}{11}{subsubsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.2}实验二 白光干涉的调节，并测定透明薄片的厚度$t$或者折射率 $n$}{11}{subsubsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.2}实验后思考题}{11}{subsection.3.2}%
+\contentsfinish 
