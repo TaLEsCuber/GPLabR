@@ -23,15 +23,28 @@
 \begin{document}
 
 
+% \begin{table}
+% 	\renewcommand\arraystretch{1.7}
+% 	\begin{tabularx}{\textwidth}{
+% 		|X|X|X
+% 		|X|X|X|}
+% 	\hline
+% 	\multicolumn{2}{|c|}{预习报告}&\multicolumn{2}{|c|}{实验记录与分析}&\multicolumn{2}{|c|}{总成绩}\\
+% 	\hline
+% 	\LARGE30 & & \LARGE50 & & \LARGE80 & \\
+% 	\hline
+% 	\end{tabularx}
+% \end{table}
+
 \begin{table}
 	\renewcommand\arraystretch{1.7}
 	\begin{tabularx}{\textwidth}{
-		|X|X|X|X
-		|X|X|X|X|}
+		|>{\centering}X|>{\centering}X|>{\centering}X
+		|>{\centering}X|>{\centering}X|>{\centering\arraybackslash}X|}
 	\hline
-	\multicolumn{2}{|c|}{预习报告}&\multicolumn{2}{|c|}{实验记录}&\multicolumn{2}{|c|}{分析讨论}&\multicolumn{2}{|c|}{总成绩}\\
+	\multicolumn{2}{|c|}{预习报告}&\multicolumn{2}{c|}{实验记录与分析}&\multicolumn{2}{c|}{总成绩}\\
 	\hline
-	\LARGE25 & & \LARGE30 & & \LARGE25 & & \LARGE80 & \\
+	\LARGE30 & & \LARGE50 & & \LARGE80 & \\
 	\hline
 	\end{tabularx}
 \end{table}
@@ -41,7 +54,7 @@
 	\renewcommand\arraystretch{1.7}
 	\begin{tabularx}{\textwidth}{|X|X|X|X|}
 	\hline
-	专业：& 物理学 &年级：& 2022级\\
+	年级、专业：& 物理学 &组号：& 实验班2\\
 	\hline
 	姓名：& 戴鹏辉  & 学号： & 2344016 \\
 	\hline
@@ -55,26 +68,25 @@
 \end{center}
 
 \textbf{【实验报告注意事项】}
-\begin{enumerate}
-	\item 实验报告由三部分组成：
-	\begin{enumerate}
-		\item 预习报告：（提前一周）认真研读\underline{\textbf{实验讲义}}，弄清实验原理；实验所需的仪器设备、用具及其使用（强烈建议到实验室预习），完成课前预习思考题；了解实验需要测量的物理量，并根据要求提前准备实验记录表格（第一循环实验已由教师提供模板，可以打印）。预习成绩低于10分（共20分）者不能做实验。
-	    \item 实验记录：认真、客观记录实验条件、实验过程中的现象以及数据。实验记录请用珠笔或者钢笔书写并签名（\textcolor{red}{\textbf{用铅笔记录的被认为无效}}）。\textcolor{red}{\textbf{保持原始记录，包括写错删除部分，如因误记需要修改记录，必须按规范修改。}}（不得输入电脑打印，但可扫描手记后打印扫描件）；离开前请实验教师检查记录并签名。
-	    \item 分析讨论：处理实验原始数据（学习仪器使用类型的实验除外），对数据的可靠性和合理性进行分析；按规范呈现数据和结果（图、表），包括数据、图表按顺序编号及其引用；分析物理现象（含回答实验思考题，写出问题思考过程，必要时按规范引用数据）；最后得出结论。
-	\end{enumerate}
-	\textbf{实验报告就是将预习报告、实验记录、和数据处理与分析合起来，加上本页封面。}
-	\item 每次完成实验后的一周内交\textbf{实验报告}（特殊情况不能超过两周）。
-	\item 除实验记录外，实验报告其他部分建议双面打印。
+\begin{enumerate}[label=\arabic*., leftmargin=*]
+	\item 实验报告由两部分组成：
+		\begin{enumerate}[label=\arabic*), leftmargin=*]
+			\item 预习报告：课前认真研读\underline{\textbf{实验讲义}}，弄清实验原理；实验所需的仪器设备、用具及其使用、完成课前预习思考题；了解实验需要测量的物理量，并根据要求提前准备实验记录表格（可以参考实验报告模板，可以打印）。\textcolor{red}{\textbf{（30分）}}
+			\item 实验记录与分析：认真、客观记录实验条件、实验过程中的现象以及数据。实验记录请用珠笔或者钢笔书写并签名（\textcolor{red}{\textbf{用铅笔记录的被认为无效}}）。\textcolor{red}{\textbf{保持原始记录，包括写错删除部分，如因误记需要修改记录，必须按规范修改。}}（不得手记的值输入到电脑打印）；离开前请实验教师检查记录并签名。\textcolor{red}{\textbf{（50分）}}
+		\end{enumerate}
 	
-	注意事项：
-	\begin{enumerate}
-		\item 实验中\textcolor{red}{\textbf{避免激光器伤到眼睛}}
-		\item 避免用手直接接触镜片的光学面
-		\item 安装镜片时需在光学平台上尽量靠近台面的高度操作，以免失手跌落摔碎镜片
-		\item 实验平台配件所用固定螺钉需拧紧，以免镜架晃动；但不可过紧，以免损坏
-		\item 实验前需按仪器清单检查光学元件是否齐全，\textcolor{red}{\textbf{实验结束后按照顺序放回元件盒}}
-		
-	\end{enumerate}
+	\item \textcolor{red}{\textbf{本实验报告可提前打印出来，当场记录分析完成交给带实验的老师，课后无需再提交。若当场完成不了，则请课后完成，再扫描并通过seelight提交。}}
+	
+	\textcolor{red}{\textbf{注意：本文档已留出填写空间，若填写空间不够的话请提前规划留白，做到报告的美观}}
+	\item 注意事项：
+		\begin{enumerate}[label=\arabic*), leftmargin=*]
+			\item 实验中\textcolor{red}{\textbf{避免激光器伤到眼睛}}
+			\item 避免用手直接接触镜片的光学面
+			\item 安装镜片时需在光学平台上尽量靠近台面的高度操作，以免失手跌落摔碎镜片
+			\item 实验平台配件所用固定螺钉需拧紧，以免镜架晃动；但不可过紧，以免损坏
+			\item 实验前需按仪器清单检查光学元件是否齐全，\textcolor{red}{\textbf{实验结束后按照顺序放回元件盒}}
+			
+		\end{enumerate}
 \end{enumerate}
 
 
@@ -220,11 +232,11 @@
 	\hline
 	姓名：& 戴鹏辉 & 学号：& 22344016 \\
 	\hline
-	室温：& xx℃ & 实验地点： & A508 \\
+	室温：&  & 实验地点： &  \\
 	\hline
 	学生签名：& & 评分： &\\
 	\hline
-	实验时间：& 2024/xx/xx & 教师签名：&\\
+	日期：&  & 教师签名：&\\
 	\hline
 	\end{tabularx}
 \end{table}

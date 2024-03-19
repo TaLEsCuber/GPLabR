@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.9.8)  18 MAR 2024 23:15
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.9.8)  19 MAR 2024 12:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1189,11 +1189,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \hskip 10.95pt
-(hyperref)                replaced by space on input line 86.
+(hyperref)                replaced by space on input line 98.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\heiti' on input line 86.
+(hyperref)                removing `\heiti' on input line 98.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1225,19 +1225,19 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \hskip 10.95pt
-(hyperref)                replaced by space on input line 232.
+(hyperref)                replaced by space on input line 244.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\heiti' on input line 232.
+(hyperref)                removing `\heiti' on input line 244.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 238.
+(hyperref)                removing `math shift' on input line 250.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 238.
+(hyperref)                removing `math shift' on input line 250.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1252,11 +1252,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \hskip 10.95pt
-(hyperref)                replaced by space on input line 274.
+(hyperref)                replaced by space on input line 286.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\heiti' on input line 274.
+(hyperref)                removing `\heiti' on input line 286.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1275,10 +1275,10 @@ Package rerunfilecheck Info: File `Lab2_3Report.out' has not changed.
 (rerunfilecheck)             Checksum: 40FBDEE6D81B89FA40CC1E0E8D2B8DD5;1989.
  ) 
 Here is how much of TeX's memory you used:
- 39397 strings out of 476683
- 859517 string characters out of 5807576
- 1882012 words of memory out of 5000000
- 59045 multiletter control sequences out of 15000+600000
+ 39394 strings out of 476683
+ 859167 string characters out of 5807576
+ 1877012 words of memory out of 5000000
+ 59042 multiletter control sequences out of 15000+600000
  519201 words of font info for 86 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  105i,12n,107p,448b,964s stack positions out of 10000i,1000n,20000p,200000b,200000s
