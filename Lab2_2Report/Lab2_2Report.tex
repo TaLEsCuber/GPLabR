@@ -326,16 +326,28 @@
 	
 	\item 在使用$He-Ne$激光光源，使其产生定域等倾干涉条纹，然后减小两干涉臂的光程差时，一定要保持干涉圆环的圆心始终保持在视场中心，这样能保证后面调节白光干涉时成功率更高。
 	\item "模糊→清晰→模糊"的判断是非常主观的，建议先计算出理论值在开始读数。
+	\item 当使用精密测量探头时，最好确保读数位于整个量程的中间部分，在这一区间读数可以是精度最高，在两头读数精度偏低
 	
 \end{enumerate}
 	
+	% \begin{figure}[htbp]
+	% 	\centering
+	% 	\includegraphics[width=0.6\textwidth]{ExpriData.jpg}
+	% 	\caption{实验原始数据}
+	% 	\label{fig:ExpriData}
+	% \end{figure}
+
 	\begin{figure}[htbp]
 		\centering
-		\includegraphics[width=0.7\textwidth]{ExpriData.jpg}
-		\caption{实验原始数据}
-		\label{fig:ExpriData}
+		\subfloat[]{
+			\includegraphics[width=0.5\textwidth]{ExpriData.jpg}
+		}
+		\subfloat[]{
+			\includegraphics[width=0.5\textwidth]{table.jpg}
+		}
+		\caption{原始实验数据+整理后实验桌照片}
+		\label{fig:graph0}			
 	\end{figure}
-
 \clearpage
 \begin{table}
 	\renewcommand\arraystretch{1.7}
@@ -361,14 +373,15 @@
 		 \]
 		一直纳双黄线的波长分别为$589.0nm$和$589.6nm$，则理论的纳双黄线为$0.6nm$，则可计算相对误差为：
 		\[
-		\eta=\frac{0.6-0.596}{0.6}=0.67%	
+		\eta=\frac{0.6-0.596}{0.6}=0.67 \%
 		\]
 		则可认为在实验误差范围内，达到了实验目的。
 		
 		可能的实验误差来源有：
 		\begin{enumerate}
 			\item 实验中是通过"模糊→清晰→模糊"的过程来判断两条纳双黄线的光程差的，但是“清晰”与“模糊”本就是一个主观的判断，在判断读数时刻的过程就会引入误差。
-			
+			\item 计算公式$ \Delta \lambda\equiv\lambda_2-\lambda_1=\frac{\lambda_1\lambda_2}{2\Delta d}=\frac{\bar{\lambda}^2}{2\Delta d} 
+			$本身就是有误差的，公式中的$\lambda_1\lambda_2$被$\bar{\lambda}^2$近似了，会引入一定的误差。
 		\end{enumerate}
 		
 	\subsubsection{实验二 白光干涉的调节，并测定透明薄片的厚度$t$或者折射率 $n$}
@@ -386,12 +399,13 @@
 		\]
 		已知玻璃片的折射率为$n=1.5$，则可计算相对误差为：
 		\[
-		\eta=\frac{1.5-1.433}{1.5}=4.47%
+		\eta=\frac{1.5-1.433}{1.5}=4.47\%
 		\]
 		发现误差较大，可能的实验误差来源有：
 		\begin{enumerate}
 			\item 玻璃片可能没有完全与光路垂直，引入了系统误差。
 			\item 相较于钠黄光的干涉图像，白光干涉的图像很模糊，判断读数时刻也是一个较为主管的过程，也会引入误差。
+			
 		\end{enumerate}
 			
 			
@@ -417,6 +431,10 @@
 				\item 调整干涉条纹：通过调整拉簧螺丝，使干涉条纹变粗、变疏，便于测量。
 				
 				\item 测量折射率：将气室抽成真空，然后缓慢充气，观察接收屏上的干涉条纹移动。记录气室内压强由0变到大气压强时的条纹变化数，利用公式计算空气的折射率。
+				\[
+				n=1+\left(\frac{\Delta m\lambda}{2L}\right)	
+				\]
+				其中，$n$是空气折射率，$\Delta m$是干涉条纹移动的数目，$\lambda$是光源波长，$L$是气室的长度。
 			\end{enumerate}
 
 		\item 数据处理：收集多组数据，计算平均值，以提高实验的准确性。
@@ -435,12 +453,12 @@
 	
 	
 	
-	\begin{figure}[htbp]
-		\centering
-		\includegraphics[width=0.4\textwidth]{table.jpg}
-		\caption{整理后实验桌照片}
-		\label{fig:table}
-	\end{figure}
+	% \begin{figure}[htbp]
+	% 	\centering
+	% 	\includegraphics[width=0.4\textwidth]{table.jpg}
+	% 	\caption{整理后实验桌照片}
+	% 	\label{fig:table}
+	% \end{figure}
 	
 
 \end{document}
