@@ -12,5 +12,5 @@
 \contentsline {subsection}{\numberline {3.1}实验数据分析}{11}{subsection.3.1}%
 \contentsline {subsubsection}{\numberline {3.1.1}实验一 测钠双黄线的波长差}{11}{subsubsection.3.1.1}%
 \contentsline {subsubsection}{\numberline {3.1.2}实验二 白光干涉的调节，并测定透明薄片的厚度$t$或者折射率 $n$}{11}{subsubsection.3.1.2}%
-\contentsline {subsection}{\numberline {3.2}实验后思考题}{11}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.2}实验后思考题}{12}{subsection.3.2}%
 \contentsfinish 
