@@ -1,0 +1,325 @@
+%!TEX program = xelatex
+\documentclass[dvipsnames, svgnames,a4paper,11pt]{article}
+% ----------------------------------------------------
+%   中山大学物理与天文学院本科实验报告模板
+%   作者：Huanyu Shi，2019级
+%   知乎：https://www.zhihu.com/people/za-ran-zhu-fu-liu-xing
+%   Github：https://github.com/huanyushi/SYSU-SPA-Labreport-Template
+%   Last update : 2023.4.10
+% ----------------------------------------------------
+
+\input{Settings} % 导入模板的相关设置
+\usepackage{lipsum}
+\usepackage{enumitem}
+\usepackage{tabularray}  %绘制表格时可以更加方便添加框线
+\usepackage{xcolor} %添加更多文本颜色
+
+\setlist[enumerate]{label=\textup{(\arabic*)}}
+
+
+
+%---------------------------------------------------------------------
+%	正文
+%---------------------------------------------------------------------
+
+\begin{document}
+
+
+% \begin{table}
+% 	\renewcommand\arraystretch{1.7}
+% 	\begin{tabularx}{\textwidth}{
+% 		|X|X|X
+% 		|X|X|X|}
+% 	\hline
+% 	\multicolumn{2}{|c|}{预习报告}&\multicolumn{2}{|c|}{实验记录与分析}&\multicolumn{2}{|c|}{总成绩}\\
+% 	\hline
+% 	\LARGE30 & & \LARGE50 & & \LARGE80 & \\
+% 	\hline
+% 	\end{tabularx}
+% \end{table}
+
+\begin{table}
+	\renewcommand\arraystretch{1.7}
+	\begin{tabularx}{\textwidth}{
+		|>{\centering}X|>{\centering}X|>{\centering}X
+		|>{\centering}X|>{\centering}X|>{\centering\arraybackslash}X|}
+	\hline
+	\multicolumn{2}{|c|}{预习报告}&\multicolumn{2}{c|}{实验记录与分析}&\multicolumn{2}{c|}{总成绩}\\
+	\hline
+	\LARGE30 & & \LARGE50 & & \LARGE80 & \\
+	\hline
+	\end{tabularx}
+\end{table}
+
+
+\begin{table}
+	\renewcommand\arraystretch{1.7}
+	\begin{tabularx}{\textwidth}{|X|X|X|X|}
+	\hline
+	年级、专业：& 物理学 &组号：& 实验班2\\
+	\hline
+	姓名：& 戴鹏辉  & 学号： & 2344016 \\
+	\hline
+	日期：& 2024/03/25 & 教师签名：& \\
+	\hline
+	\end{tabularx}
+\end{table}
+
+\begin{center}
+	\LARGE 光学像差实验I
+\end{center}
+
+\textbf{【实验报告注意事项】}
+\begin{enumerate}[label=\arabic*., leftmargin=*]
+	\item 实验报告由两部分组成：
+		\begin{enumerate}[label=\arabic*), leftmargin=*]
+			\item 预习报告：课前认真研读\underline{\textbf{实验讲义}}，弄清实验原理；实验所需的仪器设备、用具及其使用、完成课前预习思考题；了解实验需要测量的物理量，并根据要求提前准备实验记录表格（可以参考实验报告模板，可以打印）。\textcolor{red}{\textbf{（30分）}}
+			\item 实验记录与分析：认真、客观记录实验条件、实验过程中的现象以及数据。实验记录请用珠笔或者钢笔书写并签名（\textcolor{red}{\textbf{用铅笔记录的被认为无效}}）。\textcolor{red}{\textbf{保持原始记录，包括写错删除部分，如因误记需要修改记录，必须按规范修改。}}（不得手记的值输入到电脑打印）；离开前请实验教师检查记录并签名。\textcolor{red}{\textbf{（50分）}}
+		\end{enumerate}
+	
+	\item \textcolor{red}{\textbf{本实验报告可提前打印出来，当场记录分析完成交给带实验的老师，课后无需再提交。若当场完成不了，则请课后完成，再扫描并通过seelight提交。}}
+	
+	\textcolor{red}{\textbf{注意：本文档已留出填写空间，若填写空间不够的话请提前规划留白，做到报告的美观}}
+	\item 注意事项：
+		\begin{enumerate}[label=\arabic*), leftmargin=*]
+			\item 实验中\textcolor{red}{\textbf{避免激光器伤到眼睛}}
+			\item 避免用手直接接触镜片的光学面
+			\item 安装镜片时需在光学平台上尽量靠近台面的高度操作，以免失手跌落摔碎镜片
+			\item 实验平台配件所用固定螺钉需拧紧，以免镜架晃动；但不可过紧，以免损坏
+			\item 实验前需按仪器清单检查光学元件是否齐全，\textcolor{red}{\textbf{实验结束后按照顺序放回元件盒}}
+			
+		\end{enumerate}
+\end{enumerate}
+
+
+\clearpage
+\tableofcontents
+\clearpage
+
+\setcounter{section}{0}
+\section{光学像差实验I \quad\heiti 预习报告}
+	
+\subsection{实验目的}
+	\begin{enumerate}
+		\item 了解七种几何像差产生的原理、基本规律；
+		\item 了解各种像差对光学成像质量的影响；
+		\item 掌握慧差、色差产生的原理及其测量表征； 
+		\item 掌握光学系统的基本调试方法；
+		
+		
+		
+	\end{enumerate}
+
+\subsection{仪器用具}
+% \begin{table}[htbp]
+% 	\centering
+% 	\renewcommand\arraystretch{1.6}
+% 	% \setlength{\tabcolsep}{10mm}
+% 	\begin{tabular}{p{0.05\textwidth}|p{0.20\textwidth}|p{0.05\textwidth}|p{0.5\textwidth}}
+% 	\hline
+% 	编号& 仪器用具名称 & 数量 &  主要参数（型号，测量范围，测量精度等） \\
+% 	\hline
+% 	1  & 防震光学平台 & 1  & ~  \\
+% 	2  & 氦氖激光器  & 1  & ~  \\
+% 	3  & 扩束透镜   & 1  & ~  \\
+% 	4  & 分束器    & 1  & ~  \\
+% 	5  & 反射镜    & 3  & ~  \\
+% 	6  & 全息干版   & 1  & ~  \\
+% 	7  & 显影液    & 1  & ~  \\
+% 	8  & 定影液    & 1  & ~  \\
+% 	9  & 暗房设备   & 1  & ~  \\
+% 	\hline
+% \end{tabular}
+% \end{table}
+
+\begin{table}[htbp]
+    \centering
+    \begin{tabular}{|c|c|c|c|}
+        \hline
+        产品编号 & 产品名称 & 规格 & 数量 \\
+        \hline
+        1 & 激光光源 & $\lambda =632.6nm$ & 1 \\
+        2 & 激光器夹持器 & 3维调整 & 1 \\
+        3 & 显微物镜 & 10×/0.25 & 1 \\
+        4 & 针孔 & Ø100um或Ø50um & 1 \\
+        5 & 五维调整机构 & 装配显微物镜和针孔用 & 1 \\
+        6 & 衰减片1 & 0.0001（衰减系数），装在镜框中 & 1 \\
+        7 & 衰减片2 & 0.01（衰减系数），装在镜框中 & 1 \\
+        8 & 双凸透镜1 & 焦距$f=300mm$，装在透镜/反射镜座中 & 1 \\
+        9 & 平凸透镜2 & 焦距$f=100mm$，装在透镜/反射镜座中 & 1 \\
+        10 & 平凸透镜3 & 焦距$f=150mm$，装在透镜/反射镜座中 & 1 \\
+        11 & 白屏 & SZ-13，一面白屏，一面带坐标纸 & 1 \\
+        12 & 成像相机 & 大恒的MER-130-30UM或元启智能的REV-13AMU2C & 1 \\
+        13 & 数据线 & 图像采集数据线 & 1 \\
+        14 & 计算机 & 台式或笔记本，安装有成像相机图像采集软件 & 1 \\
+        15 & 光学导轨 & 长度1米，带刻度 & 1 \\
+        16 & 二维平移台 & 行程>10mm & 4 \\
+        17 & 平移滑块 & & 8 \\
+        18 & 支杆 & 50mm长和75mm长 & 3+5 \\
+        19 & 磁性表座 & & 4 \\
+        20 & 旋转调整台 & 可调角度>±5° & 1 \\
+        21 & 白光灯 & GY-6型，亮度可调，即溴钨灯 & 1 \\
+        22 & 滤光片1 & 透光波长：435nm & 1 \\
+        23 & 滤光片2 & 透光波长：630nm & 1 \\
+        \hline
+    \end{tabular}
+\end{table}
+
+
+
+\subsection{原理概述}
+（15分）（概述色差和慧差产生的原理）（请用自己的语言描述，勿大幅copy讲义等）（填写空间不够的话请提前规划留白，做到报告的美观）
+
+
+像差理论是光学设计求解光学系统初始结构的理论基础。在建立起理想光学系统后，将实际光学系统所成的像偏离理想光学系统的误差称为几何像差，简称像差。光学设计者将几何像差分为七种，即球差、慧差、像散、场曲、畸变、位置色差和倍率色差。产生像差的原因有三点：
+	\begin{enumerate}
+		\item 光线计算公式的非线性；
+		\item 物面为平面，折（反）射面为球面（曲面），成像面为曲面；
+		\item 不同颜色（波长）的光在折射介质中的折射率不同。
+	\end{enumerate}
+	
+	\begin{enumerate}
+		\item 色差（Chromatic Aberration）：色差是由于不同波长（颜色）的光线在透镜或系统中的折射率不同而引起的。这导致不同波长的光线会聚或发散到不同的焦点位置，从而造成成像时不同波长的光线无法同时聚焦于同一平面上，使得图像产生色彩偏差。色差分为两种：
+			\begin{enumerate}
+				\item 焦距色差（Longitudinal Chromatic Aberration）：不同波长的光线在透镜中折射后，聚焦于不同的位置，导致成像平面不同。
+				\item 横向色差（Lateral Chromatic Aberration）：不同波长的光线在透镜中折射后，沿不同的轴向散开，使得不同波长的光线成像位置有所偏移。
+			\end{enumerate}
+
+		
+		\item 慧差（Spherical Aberration）：慧差是由于透镜或反射面的形状不是理想的球面而引起的。理想的球面透镜或反射面能使所有入射光线汇聚于一个焦点，但非理想的球面会导致不同位置的光线汇聚于不同的焦点，产生像差。慧差会使成像的图像产生模糊和失真。
+	\end{enumerate}
+
+	
+
+\subsection{实验前思考题}
+	\begin{question}
+		慧差与孔径、视场的关系？
+	\end{question}
+		
+		
+			
+		
+		
+		
+		
+		
+
+	\begin{question}
+		产生色差原因？列举几种消色差的方法
+	\end{question}
+
+
+
+
+	\begin{question}
+		针孔滤波的工作原理
+	\end{question}
+
+\clearpage
+\begin{table}
+	\renewcommand\arraystretch{1.7}
+	\centering
+	\begin{tabularx}{\textwidth}{|X|X|X|X|}
+	\hline
+	专业：& 物理学 &年级：& 2022级 \\
+	\hline
+	姓名：& 戴鹏辉 & 学号：& 22344016 \\
+	\hline
+	室温：&  & 实验地点： &  \\
+	\hline
+	学生签名：& & 评分： &\\
+	\hline
+	日期：&  & 教师签名：&\\
+	\hline
+	\end{tabularx}
+\end{table}
+
+\section{光学像差实验I \quad\heiti 实验记录}
+\subsection{实验内容、步骤、结果及讨论}\textcolor{ForestGreen}{（按照实验顺序依次}\textcolor{red}{简要记录}\textcolor{ForestGreen}{实验内容及步骤，）（空间不够，可自行加页）}\\
+\textcolor{red}{
+（注意： \\
+除了记录实验内容、步骤、参数外，还应记录：\\
+按比例绘制操作中实际摆放的实验光路(各元件间距离可通过直尺测量)\\
+记录光路中物光和参考光的光程差\\
+记录物光和参考光光强比\\
+记录是否可观察到再现图像\\
+）
+}
+
+
+		
+
+%\subsection{实验数据记录}
+
+
+
+%\subsection{原始数据记录}
+
+\clearpage
+
+\newpage
+
+\null
+
+\newpage
+
+\null
+
+
+
+
+
+
+\newpage
+
+\subsection{实验过程中遇到的问题记录}
+
+	\begin{enumerate}
+		\item 
+		\item 
+		\item 
+	\end{enumerate}
+\null
+
+
+
+
+% \begin{table}
+% 	\renewcommand\arraystretch{1.7}
+% 	\begin{tabularx}{\textwidth}{|X|X|X|X|}
+% 	\hline
+
+% 	专业：& 物理学 &年级：& 2022级\\
+% 	\hline
+% 	姓名： & 戴鹏辉 & 学号：& 22344016\\
+% 	\hline
+%     日期：& 2024/xx/xx & 评分： &\\
+% 	\hline
+% 	\end{tabularx}
+% \end{table}
+
+% \section{全息照相实验 \quad\heiti 分析与讨论}
+
+% \subsection{实验数据分析}
+
+% 	\subsubsection{实验一 测量光栅常数}
+	
+		
+% 	\subsubsection{实验二 测定未知光波波长及角色散率D}
+			
+
+			
+% \subsection{实验后思考题}
+
+
+
+% \begin{question}
+% 	检索文献，列举三种测量光波波长的方法，给出参考文献列表。%\lipsum[20]
+% \end{question}
+	
+
+	
+
+
+
+\end{document}
