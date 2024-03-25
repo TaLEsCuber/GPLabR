@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.9.8)  25 MAR 2024 19:25
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.9.8)  25 MAR 2024 20:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1208,6 +1208,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [3
 
 ]
+File: ./images//graph2.png Graphic file (type bmp)
+<./images//graph2.png>
+
 Missing character: There is no Ⅰ (U+2160) in font [lmroman10-regular]:mapping=tex-text;!
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1217,14 +1220,35 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [4]
+File: ./images//graph1.png Graphic file (type bmp)
+<./images//graph1.png>
+
+Missing character: There is no Ⅰ (U+2160) in font [lmroman10-regular]:mapping=tex-text;!
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[5]
+Missing character: There is no Ⅰ (U+2160) in font [lmroman10-regular]:mapping=tex-text;!
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[6]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \hskip 10.95pt
-(hyperref)                replaced by space on input line 237.
+(hyperref)                replaced by space on input line 294.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\heiti' on input line 237.
+(hyperref)                removing `\heiti' on input line 294.
 
 Missing character: There is no Ⅰ (U+2160) in font [lmroman10-regular]:mapping=tex-text;!
 
@@ -1234,7 +1258,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[5
+[7
 
 ]
 Missing character: There is no Ⅰ (U+2160) in font [lmroman10-regular]:mapping=tex-text;!
@@ -1245,7 +1269,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[6
+[8
 
 ]
 Missing character: There is no Ⅰ (U+2160) in font [lmroman10-regular]:mapping=tex-text;!
@@ -1256,7 +1280,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[7]
+[9]
 Missing character: There is no Ⅰ (U+2160) in font [lmroman10-regular]:mapping=tex-text;!
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1265,7 +1289,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[8] (./Lab2_4Report.aux)
+[10] (./Lab2_4Report.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -1273,12 +1297,12 @@ Package rerunfilecheck Info: File `Lab2_4Report.out' has not changed.
 (rerunfilecheck)             Checksum: 3D83A085EB4E7C3177A7C8D7E523EB8C;974.
  ) 
 Here is how much of TeX's memory you used:
- 39437 strings out of 476683
- 862182 string characters out of 5807576
+ 39498 strings out of 476683
+ 864396 string characters out of 5807576
  1877012 words of memory out of 5000000
- 59085 multiletter control sequences out of 15000+600000
+ 59140 multiletter control sequences out of 15000+600000
  519201 words of font info for 86 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 105i,12n,107p,448b,964s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 105i,12n,107p,448b,966s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Lab2_4Report.pdf (8 pages).
+Output written on Lab2_4Report.pdf (10 pages).
